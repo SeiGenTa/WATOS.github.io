@@ -5582,6 +5582,226 @@ f1:hostCountry a rdf:Property;
 	rdfs:comment 'a Country hosting a F1 circuit'@en;
 	rdfs:domain f1:Circuit.
 
+f1:Melbourne a f1:City.
+
+f1:Kuala Lumpur a f1:City.
+
+f1:Sakhir a f1:City.
+
+f1:Montmeló a f1:City.
+
+f1:Istanbul a f1:City.
+
+f1:Monte-Carlo a f1:City.
+
+f1:Montreal a f1:City.
+
+f1:Magny Cours a f1:City.
+
+f1:Silverstone a f1:City.
+
+f1:Hockenheim a f1:City.
+
+f1:Budapest a f1:City.
+
+f1:Valencia a f1:City.
+
+f1:Spa a f1:City.
+
+f1:Monza a f1:City.
+
+f1:Marina Bay a f1:City.
+
+f1:Oyama a f1:City.
+
+f1:Shanghai a f1:City.
+
+f1:São Paulo a f1:City.
+
+f1:Indianapolis a f1:City.
+
+f1:Nürburg a f1:City.
+
+f1:Imola a f1:City.
+
+f1:Suzuka a f1:City.
+
+f1:Las Vegas a f1:City.
+
+f1:Abu Dhabi a f1:City.
+
+f1:Buenos Aires a f1:City.
+
+f1:Jerez de la Frontera a f1:City.
+
+f1:Estoril a f1:City.
+
+f1:Okayama a f1:City.
+
+f1:Adelaide a f1:City.
+
+f1:Midrand a f1:City.
+
+f1:Castle Donington a f1:City.
+
+f1:Mexico City a f1:City.
+
+f1:Phoenix a f1:City.
+
+f1:Le Castellet a f1:City.
+
+f1:Yeongam County a f1:City.
+
+f1:Rio de Janeiro a f1:City.
+
+f1:Detroit a f1:City.
+
+f1:Kent a f1:City.
+
+f1:Zandvoort a f1:City.
+
+f1:Heusden-Zolder a f1:City.
+
+f1:Dijon a f1:City.
+
+f1:Dallas a f1:City.
+
+f1:California a f1:City.
+
+f1:Nevada a f1:City.
+
+f1:Madrid a f1:City.
+
+f1:New York State a f1:City.
+
+f1:Anderstorp a f1:City.
+
+f1:Ontario a f1:City.
+
+f1:Barcelona a f1:City.
+
+f1:Brussels a f1:City.
+
+f1:Clermont-Ferrand a f1:City.
+
+f1:Quebec a f1:City.
+
+f1:Rouen a f1:City.
+
+f1:Le Mans a f1:City.
+
+f1:Reims a f1:City.
+
+f1:Eastern Cape Province a f1:City.
+
+f1:Styria a f1:City.
+
+f1:Liverpool a f1:City.
+
+f1:Oporto a f1:City.
+
+f1:Berlin a f1:City.
+
+f1:Lisbon a f1:City.
+
+f1:Florida a f1:City.
+
+f1:Casablanca a f1:City.
+
+f1:Pescara a f1:City.
+
+f1:Bern a f1:City.
+
+f1:Uttar Pradesh a f1:City.
+
+f1:Austin a f1:City.
+
+f1:Spielberg a f1:City.
+
+f1:Sochi a f1:City.
+
+f1:Baku a f1:City.
+
+f1:Portimão a f1:City.
+
+f1:Mugello a f1:City.
+
+f1:Jeddah a f1:City.
+
+f1:Al Daayen a f1:City.
+
+f1:Miami a f1:City.
+
+f1:Australia a f1:Country.
+
+f1:Malaysia a f1:Country.
+
+f1:Bahrain a f1:Country.
+
+f1:Spain a f1:Country.
+
+f1:Turkey a f1:Country.
+
+f1:Monaco a f1:Country.
+
+f1:Canada a f1:Country.
+
+f1:France a f1:Country.
+
+f1:UK a f1:Country.
+
+f1:Germany a f1:Country.
+
+f1:Hungary a f1:Country.
+
+f1:Belgium a f1:Country.
+
+f1:Italy a f1:Country.
+
+f1:Singapore a f1:Country.
+
+f1:Japan a f1:Country.
+
+f1:China a f1:Country.
+
+f1:Brazil a f1:Country.
+
+f1:USA a f1:Country.
+
+f1:United States a f1:Country.
+
+f1:UAE a f1:Country.
+
+f1:Argentina a f1:Country.
+
+f1:Portugal a f1:Country.
+
+f1:South Africa a f1:Country.
+
+f1:Mexico a f1:Country.
+
+f1:Korea a f1:Country.
+
+f1:Netherlands a f1:Country.
+
+f1:Sweden a f1:Country.
+
+f1:Austria a f1:Country.
+
+f1:Morocco a f1:Country.
+
+f1:Switzerland a f1:Country.
+
+f1:India a f1:Country.
+
+f1:Russia a f1:Country.
+
+f1:Azerbaijan a f1:Country.
+
+f1:Saudi Arabia a f1:Country.
+
+f1:Qatar a f1:Country.
+
 f1:albert_park rdf:type f1:Circuit;
 	rdfs:label 'Albert Park Grand Prix Circuit'@en;
 	f1:hostCity f1:Melbourne;
