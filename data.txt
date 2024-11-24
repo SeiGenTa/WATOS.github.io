@@ -1,9 +1,9 @@
-@prefix f1: <http://ex.org/>.
- @prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix f1: <http://ex.org/f1#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>. 
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-f1:Country rdf:type owl:Class .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+f1:Country rdf:type owl:Class.
 f1:British rdf:type f1:Nationality .
 f1:German rdf:type f1:Nationality .
 f1:Spanish rdf:type f1:Nationality .
@@ -89,13 +89,13 @@ f1:Nationality f1:Japanese;
 f1:dateOfBirth '1985-01-11'^^xsd:date .
 
 f1:bourdais rdf:type f1:Driver;
-rdfs:label "SÈbastien Bourdais"@en;
+rdfs:label "S√©bastien Bourdais"@en;
 f1:code 'BOU';
 f1:Nationality f1:French;
 f1:dateOfBirth '1979-02-28'^^xsd:date .
 
 f1:raikkonen rdf:type f1:Driver;
-rdfs:label "Kimi R‰ikkˆnen"@en;
+rdfs:label "Kimi R√§ikk√∂nen"@en;
 f1:code 'RAI';
 f1:Nationality f1:Finnish;
 f1:number '7'^^xsd:integer;
@@ -305,7 +305,7 @@ f1:Nationality f1:Brazilian;
 f1:dateOfBirth '1976-03-23'^^xsd:date .
 
 f1:pizzonia rdf:type f1:Driver;
-rdfs:label "AntÙnio Pizzonia"@en;
+rdfs:label "Ant√¥nio Pizzonia"@en;
 f1:code 'PIZ';
 f1:Nationality f1:Brazilian;
 f1:dateOfBirth '1980-09-11'^^xsd:date .
@@ -336,7 +336,7 @@ f1:Nationality f1:Hungarian;
 f1:dateOfBirth '1981-01-01'^^xsd:date .
 
 f1:gene rdf:type f1:Driver;
-rdfs:label "Marc GenÈ"@en;
+rdfs:label "Marc Gen√©"@en;
 f1:Nationality f1:Spanish;
 f1:dateOfBirth '1974-03-29'^^xsd:date .
 
@@ -381,7 +381,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1965-11-10'^^xsd:date .
 
 f1:hakkinen rdf:type f1:Driver;
-rdfs:label "Mika H‰kkinen"@en;
+rdfs:label "Mika H√§kkinen"@en;
 f1:Nationality f1:Finnish;
 f1:dateOfBirth '1968-09-28'^^xsd:date .
 
@@ -396,12 +396,12 @@ f1:Nationality f1:Brazilian;
 f1:dateOfBirth '1978-10-19'^^xsd:date .
 
 f1:mazzacane rdf:type f1:Driver;
-rdfs:label "GastÛn Mazzacane"@en;
+rdfs:label "Gast√≥n Mazzacane"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1975-05-08'^^xsd:date .
 
 f1:enge rdf:type f1:Driver;
-rdfs:label "Tom·ö Enge"@en;
+rdfs:label "Tom√°≈° Enge"@en;
 f1:Nationality f1:Czech;
 f1:dateOfBirth '1976-09-11'^^xsd:date .
 
@@ -431,7 +431,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1969-12-29'^^xsd:date .
 
 f1:buemi rdf:type f1:Driver;
-rdfs:label "SÈbastien Buemi"@en;
+rdfs:label "S√©bastien Buemi"@en;
 f1:code 'BUE';
 f1:Nationality f1:Swiss;
 f1:dateOfBirth '1988-10-31'^^xsd:date .
@@ -458,7 +458,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1960-09-17'^^xsd:date .
 
 f1:sarrazin rdf:type f1:Driver;
-rdfs:label "StÈphane Sarrazin"@en;
+rdfs:label "St√©phane Sarrazin"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1975-11-02'^^xsd:date .
 
@@ -589,7 +589,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1969-10-03'^^xsd:date .
 
 f1:deletraz rdf:type f1:Driver;
-rdfs:label "Jean-Denis DÈlÈtraz"@en;
+rdfs:label "Jean-Denis D√©l√©traz"@en;
 f1:Nationality f1:Swiss;
 f1:dateOfBirth '1963-10-01'^^xsd:date .
 
@@ -599,7 +599,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1962-03-02'^^xsd:date .
 
 f1:comas rdf:type f1:Driver;
-rdfs:label "…rik Comas"@en;
+rdfs:label "√ârik Comas"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1963-09-28'^^xsd:date .
 
@@ -614,7 +614,7 @@ f1:Nationality f1:Brazilian;
 f1:dateOfBirth '1960-03-21'^^xsd:date .
 
 f1:bernard rdf:type f1:Driver;
-rdfs:label "…ric Bernard"@en;
+rdfs:label "√âric Bernard"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1964-08-24'^^xsd:date .
 
@@ -644,7 +644,7 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1963-04-23'^^xsd:date .
 
 f1:lehto rdf:type f1:Driver;
-rdfs:label "Jyrki J‰rvilehto"@en;
+rdfs:label "Jyrki J√§rvilehto"@en;
 f1:Nationality f1:Finnish;
 f1:dateOfBirth '1966-01-31'^^xsd:date .
 
@@ -734,7 +734,7 @@ f1:Nationality f1:Japanese;
 f1:dateOfBirth '1955-03-10'^^xsd:date .
 
 f1:gugelmin rdf:type f1:Driver;
-rdfs:label "MaurÌcio Gugelmin"@en;
+rdfs:label "Maur√≠cio Gugelmin"@en;
 f1:Nationality f1:Brazilian;
 f1:dateOfBirth '1963-04-20'^^xsd:date .
 
@@ -899,7 +899,7 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1958-01-10'^^xsd:date .
 
 f1:sala rdf:type f1:Driver;
-rdfs:label "Luis PÈrez-Sala"@en;
+rdfs:label "Luis P√©rez-Sala"@en;
 f1:Nationality f1:Spanish;
 f1:dateOfBirth '1959-05-15'^^xsd:date .
 
@@ -919,7 +919,7 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1961-05-27'^^xsd:date .
 
 f1:arnoux rdf:type f1:Driver;
-rdfs:label "RenÈ Arnoux"@en;
+rdfs:label "Ren√© Arnoux"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1948-07-04'^^xsd:date .
 
@@ -939,7 +939,7 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1955-06-26'^^xsd:date .
 
 f1:campos rdf:type f1:Driver;
-rdfs:label "Adri·n Campos"@en;
+rdfs:label "Adri√°n Campos"@en;
 f1:Nationality f1:Spanish;
 f1:dateOfBirth '1960-06-17'^^xsd:date .
 
@@ -1019,7 +1019,7 @@ f1:Nationality f1:Austrian;
 f1:dateOfBirth '1949-02-22'^^xsd:date .
 
 f1:hesnault rdf:type f1:Driver;
-rdfs:label "FranÁois Hesnault"@en;
+rdfs:label "Fran√ßois Hesnault"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1956-12-30'^^xsd:date .
 
@@ -1179,7 +1179,7 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1956-03-31'^^xsd:date .
 
 f1:guerra rdf:type f1:Driver;
-rdfs:label "Miguel ¡ngel Guerra"@en;
+rdfs:label "Miguel √Ångel Guerra"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1953-08-31'^^xsd:date .
 
@@ -1194,7 +1194,7 @@ f1:Nationality f1:Argentine;
 f1:dateOfBirth '1949-04-13'^^xsd:date .
 
 f1:londono rdf:type f1:Driver;
-rdfs:label "Ricardo LondoÒo"@en;
+rdfs:label "Ricardo Londo√±o"@en;
 f1:Nationality f1:Colombian;
 f1:dateOfBirth '1949-08-08'^^xsd:date .
 
@@ -1244,7 +1244,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1951-10-29'^^xsd:date .
 
 f1:desire_wilson rdf:type f1:Driver;
-rdfs:label "DesirÈ Wilson"@en;
+rdfs:label "Desir√© Wilson"@en;
 f1:Nationality f1:South_African;
 f1:dateOfBirth '1953-11-26'^^xsd:date .
 
@@ -1394,7 +1394,7 @@ f1:Nationality f1:Dutch;
 f1:dateOfBirth '1949-05-03'^^xsd:date .
 
 f1:neve rdf:type f1:Driver;
-rdfs:label "Patrick NËve"@en;
+rdfs:label "Patrick N√®ve"@en;
 f1:Nationality f1:Belgian;
 f1:dateOfBirth '1949-10-13'^^xsd:date .
 
@@ -1489,7 +1489,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1947-06-11'^^xsd:date .
 
 f1:leclere rdf:type f1:Driver;
-rdfs:label "Michel LeclËre"@en;
+rdfs:label "Michel Lecl√®re"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1946-03-18'^^xsd:date .
 
@@ -1584,7 +1584,7 @@ f1:Nationality f1:Dutch;
 f1:dateOfBirth '1948-12-12'^^xsd:date .
 
 f1:migault rdf:type f1:Driver;
-rdfs:label "FranÁois Migault"@en;
+rdfs:label "Fran√ßois Migault"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1944-12-04'^^xsd:date .
 
@@ -1659,7 +1659,7 @@ f1:Nationality f1:South_African;
 f1:dateOfBirth '1934-05-13'^^xsd:date .
 
 f1:belso rdf:type f1:Driver;
-rdfs:label "Tom Bels¯"@en;
+rdfs:label "Tom Bels√∏"@en;
 f1:Nationality f1:Danish;
 f1:dateOfBirth '1942-08-27'^^xsd:date .
 
@@ -1679,7 +1679,7 @@ f1:Nationality f1:Australian;
 f1:dateOfBirth '1943-09-26'^^xsd:date .
 
 f1:larrousse rdf:type f1:Driver;
-rdfs:label "GÈrard Larrousse"@en;
+rdfs:label "G√©rard Larrousse"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1940-05-23'^^xsd:date .
 
@@ -1699,7 +1699,7 @@ f1:Nationality f1:Swedish;
 f1:dateOfBirth '1943-10-12'^^xsd:date .
 
 f1:dolhem rdf:type f1:Driver;
-rdfs:label "JosÈ Dolhem"@en;
+rdfs:label "Jos√© Dolhem"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1944-04-26'^^xsd:date .
 
@@ -1739,7 +1739,7 @@ f1:Nationality f1:Canadian;
 f1:dateOfBirth '1938-05-28'^^xsd:date .
 
 f1:cevert rdf:type f1:Driver;
-rdfs:label "FranÁois Cevert"@en;
+rdfs:label "Fran√ßois Cevert"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1944-02-25'^^xsd:date .
 
@@ -1829,7 +1829,7 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1944-05-26'^^xsd:date .
 
 f1:rodriguez rdf:type f1:Driver;
-rdfs:label "Pedro RodrÌguez"@en;
+rdfs:label "Pedro Rodr√≠guez"@en;
 f1:Nationality f1:Mexican;
 f1:dateOfBirth '1940-01-18'^^xsd:date .
 
@@ -1844,7 +1844,7 @@ f1:Nationality f1:Swedish;
 f1:dateOfBirth '1930-01-31'^^xsd:date .
 
 f1:mazet rdf:type f1:Driver;
-rdfs:label "FranÁois Mazet"@en;
+rdfs:label "Fran√ßois Mazet"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1943-02-24'^^xsd:date .
 
@@ -2015,7 +2015,7 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1934-02-20'^^xsd:date .
 
 f1:solana rdf:type f1:Driver;
-rdfs:label "MoisÈs Solana"@en;
+rdfs:label "Mois√©s Solana"@en;
 f1:Nationality f1:Mexican;
 f1:dateOfBirth '1935-12-26'^^xsd:date .
 
@@ -2250,7 +2250,7 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1930-10-07'^^xsd:date .
 
 f1:andre_pilette rdf:type f1:Driver;
-rdfs:label "AndrÈ Pilette"@en;
+rdfs:label "Andr√© Pilette"@en;
 f1:Nationality f1:Belgian;
 f1:dateOfBirth '1918-10-06'^^xsd:date .
 
@@ -2265,7 +2265,7 @@ f1:Nationality f1:German;
 f1:dateOfBirth '1917-01-26'^^xsd:date .
 
 f1:cabral rdf:type f1:Driver;
-rdfs:label "M·rio de Ara˙jo Cabral"@en;
+rdfs:label "M√°rio de Ara√∫jo Cabral"@en;
 f1:Nationality f1:Portuguese;
 f1:dateOfBirth '1934-01-15'^^xsd:date .
 
@@ -2300,7 +2300,7 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1926-07-10'^^xsd:date .
 
 f1:estefano rdf:type f1:Driver;
-rdfs:label "Nasif EstÈfano"@en;
+rdfs:label "Nasif Est√©fano"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1932-11-18'^^xsd:date .
 
@@ -2330,7 +2330,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1926-10-17'^^xsd:date .
 
 f1:seiffert rdf:type f1:Driver;
-rdfs:label "G¸nther Seiffert"@en;
+rdfs:label "G√ºnther Seiffert"@en;
 f1:Nationality f1:German;
 f1:dateOfBirth '1937-10-18'^^xsd:date .
 
@@ -2382,7 +2382,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1936-11-01'^^xsd:date .
 
 f1:ricardo_rodriguez rdf:type f1:Driver;
-rdfs:label "Ricardo RodrÌguez"@en;
+rdfs:label "Ricardo Rodr√≠guez"@en;
 f1:Nationality f1:Mexican;
 f1:dateOfBirth '1942-02-14'^^xsd:date .
 
@@ -2602,7 +2602,7 @@ f1:Nationality f1:Argentine;
 f1:dateOfBirth '1934-01-14'^^xsd:date .
 
 f1:gonzalez rdf:type f1:Driver;
-rdfs:label "JosÈ Froil·n Gonz·lez"@en;
+rdfs:label "Jos√© Froil√°n Gonz√°lez"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1922-10-05'^^xsd:date .
 
@@ -2877,7 +2877,7 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1923-01-07'^^xsd:date .
 
 f1:testut rdf:type f1:Driver;
-rdfs:label "AndrÈ Testut"@en;
+rdfs:label "Andr√© Testut"@en;
 f1:Nationality f1:Monegasque;
 f1:dateOfBirth '1926-04-13'^^xsd:date .
 
@@ -3127,12 +3127,12 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1917-02-26'^^xsd:date .
 
 f1:guelfi rdf:type f1:Driver;
-rdfs:label "AndrÈ Guelfi"@en;
+rdfs:label "Andr√© Guelfi"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1919-05-06'^^xsd:date .
 
 f1:picard rdf:type f1:Driver;
-rdfs:label "FranÁois Picard"@en;
+rdfs:label "Fran√ßois Picard"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1921-04-26'^^xsd:date .
 
@@ -3157,7 +3157,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1930-10-10'^^xsd:date .
 
 f1:simon rdf:type f1:Driver;
-rdfs:label "AndrÈ Simon"@en;
+rdfs:label "Andr√© Simon"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1920-01-05'^^xsd:date .
 
@@ -3237,7 +3237,7 @@ f1:Nationality f1:Brazilian;
 f1:dateOfBirth '1925-12-07'^^xsd:date .
 
 f1:bayol rdf:type f1:Driver;
-rdfs:label "…lie Bayol"@en;
+rdfs:label "√âlie Bayol"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1914-02-28'^^xsd:date .
 
@@ -3272,7 +3272,7 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1920-06-15'^^xsd:date .
 
 f1:frere rdf:type f1:Driver;
-rdfs:label "Paul FrËre"@en;
+rdfs:label "Paul Fr√®re"@en;
 f1:Nationality f1:Belgian;
 f1:dateOfBirth '1917-01-30'^^xsd:date .
 
@@ -3307,7 +3307,7 @@ f1:Nationality f1:Swiss;
 f1:dateOfBirth '1917-12-07'^^xsd:date .
 
 f1:milhoux rdf:type f1:Driver;
-rdfs:label "AndrÈ Milhoux"@en;
+rdfs:label "Andr√© Milhoux"@en;
 f1:Nationality f1:Belgian;
 f1:dateOfBirth '1928-12-09'^^xsd:date .
 
@@ -3342,7 +3342,7 @@ f1:Nationality f1:Argentine;
 f1:dateOfBirth '1920-09-04'^^xsd:date .
 
 f1:iglesias rdf:type f1:Driver;
-rdfs:label "Jes˙s Iglesias"@en;
+rdfs:label "Jes√∫s Iglesias"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1922-02-22'^^xsd:date .
 
@@ -3462,7 +3462,7 @@ f1:Nationality f1:Thai;
 f1:dateOfBirth '1914-07-15'^^xsd:date .
 
 f1:marimon rdf:type f1:Driver;
-rdfs:label "Onofre MarimÛn"@en;
+rdfs:label "Onofre Marim√≥n"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1923-12-19'^^xsd:date .
 
@@ -3587,7 +3587,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1925-03-10'^^xsd:date .
 
 f1:galvez rdf:type f1:Driver;
-rdfs:label "Oscar G·lvez"@en;
+rdfs:label "Oscar G√°lvez"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1913-08-17'^^xsd:date .
 
@@ -3687,7 +3687,7 @@ f1:Nationality f1:German;
 f1:dateOfBirth '1921-11-05'^^xsd:date .
 
 f1:bechem rdf:type f1:Driver;
-rdfs:label "G¸nther Bechem"@en;
+rdfs:label "G√ºnther Bechem"@en;
 f1:Nationality f1:German;
 f1:dateOfBirth '1921-12-21'^^xsd:date .
 
@@ -3817,7 +3817,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1906-07-24'^^xsd:date .
 
 f1:etancelin rdf:type f1:Driver;
-rdfs:label "Philippe …tancelin"@en;
+rdfs:label "Philippe √âtancelin"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1896-12-28'^^xsd:date .
 
@@ -3982,7 +3982,7 @@ f1:Nationality f1:French;
 f1:dateOfBirth '1905-12-22'^^xsd:date .
 
 f1:chaboud rdf:type f1:Driver;
-rdfs:label "EugËne Chaboud"@en;
+rdfs:label "Eug√®ne Chaboud"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1907-04-12'^^xsd:date .
 
@@ -4057,7 +4057,7 @@ f1:Nationality f1:British;
 f1:dateOfBirth '1915-10-26'^^xsd:date .
 
 f1:martin rdf:type f1:Driver;
-rdfs:label "EugËne Martin"@en;
+rdfs:label "Eug√®ne Martin"@en;
 f1:Nationality f1:French;
 f1:dateOfBirth '1915-03-24'^^xsd:date .
 
@@ -4072,7 +4072,7 @@ f1:Nationality f1:Italian;
 f1:dateOfBirth '1898-08-18'^^xsd:date .
 
 f1:pian rdf:type f1:Driver;
-rdfs:label "Alfredo Pi·n"@en;
+rdfs:label "Alfredo Pi√°n"@en;
 f1:Nationality f1:Argentine;
 f1:dateOfBirth '1912-10-21'^^xsd:date .
 
@@ -4142,12 +4142,12 @@ f1:Nationality f1:American;
 f1:dateOfBirth '1917-02-10'^^xsd:date .
 
 f1:oscar_gonzalez rdf:type f1:Driver;
-rdfs:label "”scar Gonz·lez"@en;
+rdfs:label "√ìscar Gonz√°lez"@en;
 f1:Nationality f1:Uruguayan;
 f1:dateOfBirth '1923-11-10'^^xsd:date .
 
 f1:hulkenberg rdf:type f1:Driver;
-rdfs:label "Nico H¸lkenberg"@en;
+rdfs:label "Nico H√ºlkenberg"@en;
 f1:code 'HUL';
 f1:Nationality f1:German;
 f1:number '27'^^xsd:integer;
@@ -4192,14 +4192,14 @@ f1:number '40'^^xsd:integer;
 f1:dateOfBirth '1986-04-16'^^xsd:date .
 
 f1:perez rdf:type f1:Driver;
-rdfs:label "Sergio PÈrez"@en;
+rdfs:label "Sergio P√©rez"@en;
 f1:code 'PER';
 f1:Nationality f1:Mexican;
 f1:number '11'^^xsd:integer;
 f1:dateOfBirth '1990-01-26'^^xsd:date .
 
 f1:ambrosio rdf:type f1:Driver;
-rdfs:label "JÈrÙme d'Ambrosio"@en;
+rdfs:label "J√©r√¥me d'Ambrosio"@en;
 f1:code 'DAM';
 f1:Nationality f1:Belgian;
 f1:dateOfBirth '1985-12-27'^^xsd:date .
@@ -4212,7 +4212,7 @@ f1:number '3'^^xsd:integer;
 f1:dateOfBirth '1989-07-01'^^xsd:date .
 
 f1:vergne rdf:type f1:Driver;
-rdfs:label "Jean-…ric Vergne"@en;
+rdfs:label "Jean-√âric Vergne"@en;
 f1:code 'VER';
 f1:Nationality f1:French;
 f1:number '25'^^xsd:integer;
@@ -4232,7 +4232,7 @@ f1:number '4'^^xsd:integer;
 f1:dateOfBirth '1991-04-21'^^xsd:date .
 
 f1:gutierrez rdf:type f1:Driver;
-rdfs:label "Esteban GutiÈrrez"@en;
+rdfs:label "Esteban Guti√©rrez"@en;
 f1:code 'GUT';
 f1:Nationality f1:Mexican;
 f1:number '21'^^xsd:integer;
@@ -4273,7 +4273,7 @@ f1:number '26'^^xsd:integer;
 f1:dateOfBirth '1994-04-26'^^xsd:date .
 
 f1:lotterer rdf:type f1:Driver;
-rdfs:label "AndrÈ Lotterer"@en;
+rdfs:label "Andr√© Lotterer"@en;
 f1:code 'LOT';
 f1:Nationality f1:German;
 f1:number '45'^^xsd:integer;
@@ -4507,848 +4507,1617 @@ rdfs:comment 'A class representing an F1 constructor'@en .
 
 f1:mclaren rdf:type f1:Constructor;
                     rdfs:label 'McLaren'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/McLaren' .
 
 f1:bmw_sauber rdf:type f1:Constructor;
                     rdfs:label 'BMW Sauber'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/BMW_Sauber' .
 
 f1:williams rdf:type f1:Constructor;
                     rdfs:label 'Williams'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering' .
 
 f1:renault rdf:type f1:Constructor;
                     rdfs:label 'Renault'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Renault_in_Formula_One' .
 
 f1:toro_rosso rdf:type f1:Constructor;
                     rdfs:label 'Toro Rosso'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Scuderia_Toro_Rosso' .
 
 f1:ferrari rdf:type f1:Constructor;
                     rdfs:label 'Ferrari'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Scuderia_Ferrari' .
 
 f1:toyota rdf:type f1:Constructor;
                     rdfs:label 'Toyota'@en;
-                    f1:nationality 'fJapanese' .
+                    f1:nationality 'fJapanese';
+                    f1:link 'http://en.wikipedia.org/wiki/Toyota_Racing' .
 
 f1:super_aguri rdf:type f1:Constructor;
                     rdfs:label 'Super Aguri'@en;
-                    f1:nationality 'fJapanese' .
+                    f1:nationality 'fJapanese';
+                    f1:link 'http://en.wikipedia.org/wiki/Super_Aguri_F1' .
 
 f1:red_bull rdf:type f1:Constructor;
                     rdfs:label 'Red Bull'@en;
-                    f1:nationality 'fAustrian' .
+                    f1:nationality 'fAustrian';
+                    f1:link 'http://en.wikipedia.org/wiki/Red_Bull_Racing' .
 
 f1:force_india rdf:type f1:Constructor;
                     rdfs:label 'Force India'@en;
-                    f1:nationality 'fIndian' .
+                    f1:nationality 'fIndian';
+                    f1:link 'http://en.wikipedia.org/wiki/Racing_Point_Force_India' .
 
 f1:honda rdf:type f1:Constructor;
                     rdfs:label 'Honda'@en;
-                    f1:nationality 'fJapanese' .
+                    f1:nationality 'fJapanese';
+                    f1:link 'http://en.wikipedia.org/wiki/Honda_Racing_F1' .
 
 f1:spyker rdf:type f1:Constructor;
                     rdfs:label 'Spyker'@en;
-                    f1:nationality 'fDutch' .
+                    f1:nationality 'fDutch';
+                    f1:link 'http://en.wikipedia.org/wiki/Spyker_F1' .
 
 f1:mf1 rdf:type f1:Constructor;
                     rdfs:label 'MF1'@en;
-                    f1:nationality 'fRussian' .
+                    f1:nationality 'fRussian';
+                    f1:link 'http://en.wikipedia.org/wiki/Midland_F1_Racing' .
 
 f1:spyker_mf1 rdf:type f1:Constructor;
                     rdfs:label 'Spyker MF1'@en;
-                    f1:nationality 'fDutch' .
+                    f1:nationality 'fDutch';
+                    f1:link 'http://en.wikipedia.org/wiki/Midland_F1_Racing' .
 
 f1:sauber rdf:type f1:Constructor;
                     rdfs:label 'Sauber'@en;
-                    f1:nationality 'fSwiss' .
+                    f1:nationality 'fSwiss';
+                    f1:link 'http://en.wikipedia.org/wiki/Sauber_Motorsport' .
 
 f1:bar rdf:type f1:Constructor;
                     rdfs:label 'BAR'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/British_American_Racing' .
 
 f1:jordan rdf:type f1:Constructor;
                     rdfs:label 'Jordan'@en;
-                    f1:nationality 'fIrish' .
+                    f1:nationality 'fIrish';
+                    f1:link 'http://en.wikipedia.org/wiki/Jordan_Grand_Prix' .
 
 f1:minardi rdf:type f1:Constructor;
                     rdfs:label 'Minardi'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Minardi' .
 
 f1:jaguar rdf:type f1:Constructor;
                     rdfs:label 'Jaguar'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Jaguar_Racing' .
 
 f1:prost rdf:type f1:Constructor;
                     rdfs:label 'Prost'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Prost_Grand_Prix' .
 
 f1:arrows rdf:type f1:Constructor;
                     rdfs:label 'Arrows'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Arrows_Grand_Prix_International' .
 
 f1:benetton rdf:type f1:Constructor;
                     rdfs:label 'Benetton'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Benetton_Formula' .
 
 f1:brawn rdf:type f1:Constructor;
                     rdfs:label 'Brawn'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brawn_GP' .
 
 f1:stewart rdf:type f1:Constructor;
                     rdfs:label 'Stewart'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Stewart_Grand_Prix' .
 
 f1:tyrrell rdf:type f1:Constructor;
                     rdfs:label 'Tyrrell'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Tyrrell_Racing' .
 
 f1:lola rdf:type f1:Constructor;
                     rdfs:label 'Lola'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/MasterCard_Lola' .
 
 f1:ligier rdf:type f1:Constructor;
                     rdfs:label 'Ligier'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Ligier' .
 
 f1:forti rdf:type f1:Constructor;
                     rdfs:label 'Forti'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Forti' .
 
 f1:footwork rdf:type f1:Constructor;
                     rdfs:label 'Footwork'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Footwork_Arrows' .
 
 f1:pacific rdf:type f1:Constructor;
                     rdfs:label 'Pacific'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Pacific_Racing' .
 
 f1:simtek rdf:type f1:Constructor;
                     rdfs:label 'Simtek'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Simtek' .
 
 f1:team_lotus rdf:type f1:Constructor;
                     rdfs:label 'Team Lotus'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:larrousse rdf:type f1:Constructor;
                     rdfs:label 'Larrousse'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Larrousse' .
 
 f1:brabham rdf:type f1:Constructor;
                     rdfs:label 'Brabham'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brabham' .
 
 f1:dallara rdf:type f1:Constructor;
                     rdfs:label 'Dallara'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Dallara' .
 
 f1:fondmetal rdf:type f1:Constructor;
                     rdfs:label 'Fondmetal'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Fondmetal' .
 
 f1:march rdf:type f1:Constructor;
                     rdfs:label 'March'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/March_Engineering' .
 
 f1:moda rdf:type f1:Constructor;
                     rdfs:label 'Andrea Moda'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Andrea_Moda_Formula' .
 
 f1:ags rdf:type f1:Constructor;
                     rdfs:label 'AGS'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Automobiles_Gonfaronnaises_Sportives' .
 
 f1:lambo rdf:type f1:Constructor;
                     rdfs:label 'Lambo'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Modena_(racing_team)' .
 
 f1:leyton rdf:type f1:Constructor;
                     rdfs:label 'Leyton House'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Leyton_House' .
 
 f1:coloni rdf:type f1:Constructor;
                     rdfs:label 'Coloni'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Enzo_Coloni_Racing_Car_Systems' .
 
 f1:eurobrun rdf:type f1:Constructor;
                     rdfs:label 'Euro Brun'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Euro_Brun' .
 
 f1:osella rdf:type f1:Constructor;
                     rdfs:label 'Osella'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Osella' .
 
 f1:onyx rdf:type f1:Constructor;
                     rdfs:label 'Onyx'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Onyx_(racing_team)' .
 
 f1:life rdf:type f1:Constructor;
                     rdfs:label 'Life'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Life_(Racing_Team)' .
 
 f1:rial rdf:type f1:Constructor;
                     rdfs:label 'Rial'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Rial_%28racing_team%29' .
 
 f1:zakspeed rdf:type f1:Constructor;
                     rdfs:label 'Zakspeed'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Zakspeed' .
 
 f1:ram rdf:type f1:Constructor;
                     rdfs:label 'RAM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/RAM_Racing' .
 
 f1:alfa rdf:type f1:Constructor;
                     rdfs:label 'Alfa Romeo'@en;
-                    f1:nationality 'fSwiss' .
+                    f1:nationality 'fSwiss';
+                    f1:link 'http://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One' .
 
 f1:spirit rdf:type f1:Constructor;
                     rdfs:label 'Spirit'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Spirit_(racing_team)' .
 
 f1:toleman rdf:type f1:Constructor;
                     rdfs:label 'Toleman'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Toleman' .
 
 f1:ats rdf:type f1:Constructor;
                     rdfs:label 'ATS'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/ATS_(wheels)' .
 
 f1:theodore rdf:type f1:Constructor;
                     rdfs:label 'Theodore'@en;
-                    f1:nationality 'fHong Kong' .
+                    f1:nationality 'fHong Kong';
+                    f1:link 'http://en.wikipedia.org/wiki/Theodore_Racing' .
 
 f1:fittipaldi rdf:type f1:Constructor;
                     rdfs:label 'Fittipaldi'@en;
-                    f1:nationality 'fBrazilian' .
+                    f1:nationality 'fBrazilian';
+                    f1:link 'http://en.wikipedia.org/wiki/Fittipaldi_%28constructor%29' .
 
 f1:ensign rdf:type f1:Constructor;
                     rdfs:label 'Ensign'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Ensign_%28racing_team%29' .
 
 f1:shadow rdf:type f1:Constructor;
                     rdfs:label 'Shadow'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Shadow_Racing_Cars' .
 
 f1:wolf rdf:type f1:Constructor;
                     rdfs:label 'Wolf'@en;
-                    f1:nationality 'fCanadian' .
+                    f1:nationality 'fCanadian';
+                    f1:link 'http://en.wikipedia.org/wiki/Walter_Wolf_Racing' .
 
 f1:merzario rdf:type f1:Constructor;
                     rdfs:label 'Merzario'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Merzario' .
 
 f1:kauhsen rdf:type f1:Constructor;
                     rdfs:label 'Kauhsen'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Kauhsen' .
 
 f1:rebaque rdf:type f1:Constructor;
                     rdfs:label 'Rebaque'@en;
-                    f1:nationality 'fMexican' .
+                    f1:nationality 'fMexican';
+                    f1:link 'http://en.wikipedia.org/wiki/Rebaque' .
 
 f1:surtees rdf:type f1:Constructor;
                     rdfs:label 'Surtees'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Surtees' .
 
 f1:hesketh rdf:type f1:Constructor;
                     rdfs:label 'Hesketh'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Hesketh_Racing' .
 
 f1:martini rdf:type f1:Constructor;
                     rdfs:label 'Martini'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Martini_(cars)' .
 
 f1:brm rdf:type f1:Constructor;
                     rdfs:label 'BRM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/BRM' .
 
 f1:penske rdf:type f1:Constructor;
                     rdfs:label 'Penske'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Penske_Racing' .
 
 f1:lec rdf:type f1:Constructor;
                     rdfs:label 'LEC'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/LEC_(Formula_One)' .
 
 f1:mcguire rdf:type f1:Constructor;
                     rdfs:label 'McGuire'@en;
-                    f1:nationality 'fAustralian' .
+                    f1:nationality 'fAustralian';
+                    f1:link 'http://en.wikipedia.org/wiki/McGuire_(Formula_One)' .
 
 f1:boro rdf:type f1:Constructor;
                     rdfs:label 'Boro'@en;
-                    f1:nationality 'fDutch' .
+                    f1:nationality 'fDutch';
+                    f1:link 'http://en.wikipedia.org/wiki/Boro_(Formula_One)' .
 
 f1:apollon rdf:type f1:Constructor;
                     rdfs:label 'Apollon'@en;
-                    f1:nationality 'fSwiss' .
+                    f1:nationality 'fSwiss';
+                    f1:link 'http://en.wikipedia.org/wiki/Apollon_(Formula_One)' .
 
 f1:kojima rdf:type f1:Constructor;
                     rdfs:label 'Kojima'@en;
-                    f1:nationality 'fJapanese' .
+                    f1:nationality 'fJapanese';
+                    f1:link 'http://en.wikipedia.org/wiki/Kojima_Engineering' .
 
 f1:parnelli rdf:type f1:Constructor;
                     rdfs:label 'Parnelli'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Parnelli' .
 
 f1:maki rdf:type f1:Constructor;
                     rdfs:label 'Maki'@en;
-                    f1:nationality 'fJapanese' .
+                    f1:nationality 'fJapanese';
+                    f1:link 'http://en.wikipedia.org/wiki/Maki_(cars)' .
 
 f1:hill rdf:type f1:Constructor;
                     rdfs:label 'Embassy Hill'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Hill_(constructor)' .
 
 f1:lyncar rdf:type f1:Constructor;
                     rdfs:label 'Lyncar'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Lyncar' .
 
 f1:trojan rdf:type f1:Constructor;
                     rdfs:label 'Trojan'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Trojan_(Racing_team)' .
 
 f1:amon rdf:type f1:Constructor;
                     rdfs:label 'Amon'@en;
-                    f1:nationality 'fNew Zealander' .
+                    f1:nationality 'fNew Zealander';
+                    f1:link 'http://en.wikipedia.org/wiki/Amon_(Formula_One_team)' .
 
 f1:token rdf:type f1:Constructor;
                     rdfs:label 'Token'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Token_(Racing_team)' .
 
 f1:iso_marlboro rdf:type f1:Constructor;
                     rdfs:label 'Iso Marlboro'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Iso_Marlboro' .
 
 f1:tecno rdf:type f1:Constructor;
                     rdfs:label 'Tecno'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Tecno' .
 
 f1:matra rdf:type f1:Constructor;
                     rdfs:label 'Matra'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Matra' .
 
 f1:politoys rdf:type f1:Constructor;
                     rdfs:label 'Politoys'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Frank_Williams_Racing_Cars' .
 
 f1:connew rdf:type f1:Constructor;
                     rdfs:label 'Connew'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Connew' .
 
 f1:bellasi rdf:type f1:Constructor;
                     rdfs:label 'Bellasi'@en;
-                    f1:nationality 'fSwiss' .
+                    f1:nationality 'fSwiss';
+                    f1:link 'http://en.wikipedia.org/wiki/Bellasi' .
 
 f1:tomaso rdf:type f1:Constructor;
                     rdfs:label 'De Tomaso'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/De_Tomaso' .
 
 f1:cooper rdf:type f1:Constructor;
                     rdfs:label 'Cooper'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:eagle rdf:type f1:Constructor;
                     rdfs:label 'Eagle'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Anglo_American_Racers' .
 
 f1:lds rdf:type f1:Constructor;
                     rdfs:label 'LDS'@en;
-                    f1:nationality 'fSouth African' .
+                    f1:nationality 'fSouth African';
+                    f1:link 'http://en.wikipedia.org/wiki/LDS_(automobile)' .
 
 f1:protos rdf:type f1:Constructor;
                     rdfs:label 'Protos'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Protos_(constructor)' .
 
 f1:shannon rdf:type f1:Constructor;
                     rdfs:label 'Shannon'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Shannon_(Formula_One)' .
 
 f1:scirocco rdf:type f1:Constructor;
                     rdfs:label 'Scirocco'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Scirocco-Powell' .
 
 f1:re rdf:type f1:Constructor;
                     rdfs:label 'RE'@en;
-                    f1:nationality 'fRhodesian' .
+                    f1:nationality 'fRhodesian';
+                    f1:link 'http://en.wikipedia.org/wiki/RE_%28automobile%29' .
 
 f1:brp rdf:type f1:Constructor;
                     rdfs:label 'BRP'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/British_Racing_Partnership' .
 
 f1:porsche rdf:type f1:Constructor;
                     rdfs:label 'Porsche'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Porsche_in_Formula_One' .
 
 f1:derrington rdf:type f1:Constructor;
                     rdfs:label 'Derrington'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Derrington-Francis' .
 
 f1:gilby rdf:type f1:Constructor;
                     rdfs:label 'Gilby'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Gilby' .
 
 f1:stebro rdf:type f1:Constructor;
                     rdfs:label 'Stebro'@en;
-                    f1:nationality 'fCanadian' .
+                    f1:nationality 'fCanadian';
+                    f1:link 'http://en.wikipedia.org/wiki/Stebro' .
 
 f1:emeryson rdf:type f1:Constructor;
                     rdfs:label 'Emeryson'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Emeryson' .
 
 f1:enb rdf:type f1:Constructor;
                     rdfs:label 'ENB'@en;
-                    f1:nationality 'fBelgian' .
+                    f1:nationality 'fBelgian';
+                    f1:link 'http://en.wikipedia.org/wiki/Ecurie_Nationale_Belge' .
 
 f1:jbw rdf:type f1:Constructor;
                     rdfs:label 'JBW'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/JBW' .
 
 f1:ferguson rdf:type f1:Constructor;
                     rdfs:label 'Ferguson'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Ferguson_Research_Ltd.' .
 
 f1:mbm rdf:type f1:Constructor;
                     rdfs:label 'MBM'@en;
-                    f1:nationality 'fSwiss' .
+                    f1:nationality 'fSwiss';
+                    f1:link 'http://en.wikipedia.org/wiki/Monteverdi_Basel_Motors' .
 
 f1:behra-porsche rdf:type f1:Constructor;
                     rdfs:label 'Behra-Porsche'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Behra-Porsche' .
 
 f1:maserati rdf:type f1:Constructor;
                     rdfs:label 'Maserati'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Maserati' .
 
 f1:scarab rdf:type f1:Constructor;
                     rdfs:label 'Scarab'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Scarab_(constructor)' .
 
 f1:watson rdf:type f1:Constructor;
                     rdfs:label 'Watson'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/A.J._Watson' .
 
 f1:epperly rdf:type f1:Constructor;
                     rdfs:label 'Epperly'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Epperly' .
 
 f1:phillips rdf:type f1:Constructor;
                     rdfs:label 'Phillips'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Phillips_(constructor)' .
 
 f1:lesovsky rdf:type f1:Constructor;
                     rdfs:label 'Lesovsky'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Lesovsky' .
 
 f1:trevis rdf:type f1:Constructor;
                     rdfs:label 'Trevis'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Trevis' .
 
 f1:meskowski rdf:type f1:Constructor;
                     rdfs:label 'Meskowski'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Meskowski' .
 
 f1:kurtis_kraft rdf:type f1:Constructor;
                     rdfs:label 'Kurtis Kraft'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Kurtis_Kraft' .
 
 f1:kuzma rdf:type f1:Constructor;
                     rdfs:label 'Kuzma'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Kuzma_(constructor)' .
 
 f1:vhristensen rdf:type f1:Constructor;
                     rdfs:label 'Christensen'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Christensen_(constructor)' .
 
 f1:ewing rdf:type f1:Constructor;
                     rdfs:label 'Ewing'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Ewing_(constructor)' .
 
 f1:aston_martin rdf:type f1:Constructor;
                     rdfs:label 'Aston Martin'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One' .
 
 f1:vanwall rdf:type f1:Constructor;
                     rdfs:label 'Vanwall'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Vanwall' .
 
 f1:moore rdf:type f1:Constructor;
                     rdfs:label 'Moore'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Moore_(constructor)' .
 
 f1:dunn rdf:type f1:Constructor;
                     rdfs:label 'Dunn'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Dunn_Engineering' .
 
 f1:elder rdf:type f1:Constructor;
                     rdfs:label 'Elder'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Elder_(constructor)' .
 
 f1:sutton rdf:type f1:Constructor;
                     rdfs:label 'Sutton'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Sutton_(constructor)' .
 
 f1:fry rdf:type f1:Constructor;
                     rdfs:label 'Fry'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Fry_(racing_team)' .
 
 f1:tec-mec rdf:type f1:Constructor;
                     rdfs:label 'Tec-Mec'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Tec-Mec' .
 
 f1:connaught rdf:type f1:Constructor;
                     rdfs:label 'Connaught'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Connaught_Engineering' .
 
 f1:alta rdf:type f1:Constructor;
                     rdfs:label 'Alta'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Alta_auto_racing_team' .
 
 f1:osca rdf:type f1:Constructor;
                     rdfs:label 'OSCA'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Officine_Specializate_Costruzione_Automobili' .
 
 f1:gordini rdf:type f1:Constructor;
                     rdfs:label 'Gordini'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Gordini' .
 
 f1:stevens rdf:type f1:Constructor;
                     rdfs:label 'Stevens'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Stevens_(constructor)' .
 
 f1:bugatti rdf:type f1:Constructor;
                     rdfs:label 'Bugatti'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Bugatti' .
 
 f1:mercedes rdf:type f1:Constructor;
                     rdfs:label 'Mercedes'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One' .
 
 f1:lancia rdf:type f1:Constructor;
                     rdfs:label 'Lancia'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Lancia_in_Formula_One' .
 
 f1:hwm rdf:type f1:Constructor;
                     rdfs:label 'HWM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Hersham_and_Walton_Motors' .
 
 f1:schroeder rdf:type f1:Constructor;
                     rdfs:label 'Schroeder'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Schroeder_(constructor)' .
 
 f1:pawl rdf:type f1:Constructor;
                     rdfs:label 'Pawl'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Pawl_(constructor)' .
 
 f1:pankratz rdf:type f1:Constructor;
                     rdfs:label 'Pankratz'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Pankratz' .
 
 f1:arzani-volpini rdf:type f1:Constructor;
                     rdfs:label 'Arzani-Volpini'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Arzani-Volpini' .
 
 f1:nichels rdf:type f1:Constructor;
                     rdfs:label 'Nichels'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Nichels' .
 
 f1:bromme rdf:type f1:Constructor;
                     rdfs:label 'Bromme'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Bromme' .
 
 f1:klenk rdf:type f1:Constructor;
                     rdfs:label 'Klenk'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Klenk' .
 
 f1:simca rdf:type f1:Constructor;
                     rdfs:label 'Simca'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Simca' .
 
 f1:turner rdf:type f1:Constructor;
                     rdfs:label 'Turner'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Turner_(constructor)' .
 
 f1:del_roy rdf:type f1:Constructor;
                     rdfs:label 'Del Roy'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Del_Roy' .
 
 f1:veritas rdf:type f1:Constructor;
                     rdfs:label 'Veritas'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Veritas_(constructor)' .
 
 f1:bmw rdf:type f1:Constructor;
                     rdfs:label 'BMW'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/BMW' .
 
 f1:emw rdf:type f1:Constructor;
                     rdfs:label 'EMW'@en;
-                    f1:nationality 'fEast German' .
+                    f1:nationality 'fEast German';
+                    f1:link 'http://en.wikipedia.org/wiki/Eisenacher_Motorenwerk' .
 
 f1:afm rdf:type f1:Constructor;
                     rdfs:label 'AFM'@en;
-                    f1:nationality 'fGerman' .
+                    f1:nationality 'fGerman';
+                    f1:link 'http://en.wikipedia.org/wiki/Alex_von_Falkenhausen_Motorenbau' .
 
 f1:frazer_nash rdf:type f1:Constructor;
                     rdfs:label 'Frazer Nash'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Frazer_Nash' .
 
 f1:sherman rdf:type f1:Constructor;
                     rdfs:label 'Sherman'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Sherman_(constructor)' .
 
 f1:deidt rdf:type f1:Constructor;
                     rdfs:label 'Deidt'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Deidt' .
 
 f1:era rdf:type f1:Constructor;
                     rdfs:label 'ERA'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/English_Racing_Automobiles' .
 
 f1:butterworth rdf:type f1:Constructor;
                     rdfs:label 'Aston Butterworth'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Aston_Butterworth' .
 
 f1:cisitalia rdf:type f1:Constructor;
                     rdfs:label 'Cisitalia'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Cisitalia' .
 
 f1:lago rdf:type f1:Constructor;
                     rdfs:label 'Talbot-Lago'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Talbot-Lago' .
 
 f1:hall rdf:type f1:Constructor;
                     rdfs:label 'Hall'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Hall_(constructor)' .
 
 f1:marchese rdf:type f1:Constructor;
                     rdfs:label 'Marchese'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Marchese_(constructor)' .
 
 f1:langley rdf:type f1:Constructor;
                     rdfs:label 'Langley'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Langley_(constructor)' .
 
 f1:rae rdf:type f1:Constructor;
                     rdfs:label 'Rae'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Rae_(motorsport)' .
 
 f1:olson rdf:type f1:Constructor;
                     rdfs:label 'Olson'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Olson_(constructor)' .
 
 f1:wetteroth rdf:type f1:Constructor;
                     rdfs:label 'Wetteroth'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Wetteroth' .
 
 f1:adams rdf:type f1:Constructor;
                     rdfs:label 'Adams'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Adams_(constructor)' .
 
 f1:snowberger rdf:type f1:Constructor;
                     rdfs:label 'Snowberger'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Snowberger' .
 
 f1:milano rdf:type f1:Constructor;
                     rdfs:label 'Milano'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Scuderia_Milano' .
 
 f1:hrt rdf:type f1:Constructor;
                     rdfs:label 'HRT'@en;
-                    f1:nationality 'fSpanish' .
+                    f1:nationality 'fSpanish';
+                    f1:link 'http://en.wikipedia.org/wiki/Hispania_Racing' .
 
 f1:cooper-maserati rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Maserati'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:virgin rdf:type f1:Constructor;
                     rdfs:label 'Virgin'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Virgin_Racing' .
 
 f1:cooper-osca rdf:type f1:Constructor;
                     rdfs:label 'Cooper-OSCA'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:cooper-borgward rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Borgward'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:cooper-climax rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Climax'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:cooper-castellotti rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Castellotti'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:lotus-climax rdf:type f1:Constructor;
                     rdfs:label 'Lotus-Climax'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:lotus-maserati rdf:type f1:Constructor;
                     rdfs:label 'Lotus-Maserati'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:de_tomaso-osca rdf:type f1:Constructor;
                     rdfs:label 'De Tomaso-Osca'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/De_Tomaso' .
 
 f1:de_tomaso-alfa_romeo rdf:type f1:Constructor;
                     rdfs:label 'De Tomaso-Alfa Romeo'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/De_Tomaso' .
 
 f1:lotus-brm rdf:type f1:Constructor;
                     rdfs:label 'Lotus-BRM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:lotus-borgward rdf:type f1:Constructor;
                     rdfs:label 'Lotus-Borgward'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:cooper-alfa_romeo rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Alfa Romeo'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:de_tomaso-ferrari rdf:type f1:Constructor;
                     rdfs:label 'De Tomaso-Ferrari'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/De_Tomaso' .
 
 f1:lotus-ford rdf:type f1:Constructor;
                     rdfs:label 'Lotus-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:brabham-brm rdf:type f1:Constructor;
                     rdfs:label 'Brabham-BRM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brabham' .
 
 f1:brabham-ford rdf:type f1:Constructor;
                     rdfs:label 'Brabham-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brabham' .
 
 f1:brabham-climax rdf:type f1:Constructor;
                     rdfs:label 'Brabham-Climax'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brabham' .
 
 f1:lds-climax rdf:type f1:Constructor;
                     rdfs:label 'LDS-Climax'@en;
-                    f1:nationality 'fSouth African' .
+                    f1:nationality 'fSouth African';
+                    f1:link 'http://en.wikipedia.org/wiki/LDS_(automobile)' .
 
 f1:lds-alfa_romeo rdf:type f1:Constructor;
                     rdfs:label 'LDS-Alfa Romeo'@en;
-                    f1:nationality 'fSouth African' .
+                    f1:nationality 'fSouth African';
+                    f1:link 'http://en.wikipedia.org/wiki/LDS_(automobile)' .
 
 f1:cooper-ford rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:mclaren-ford rdf:type f1:Constructor;
                     rdfs:label 'McLaren-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_McLaren' .
 
 f1:mclaren-seren rdf:type f1:Constructor;
                     rdfs:label 'McLaren-Serenissima'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_McLaren' .
 
 f1:eagle-climax rdf:type f1:Constructor;
                     rdfs:label 'Eagle-Climax'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Anglo_American_Racers' .
 
 f1:eagle-weslake rdf:type f1:Constructor;
                     rdfs:label 'Eagle-Weslake'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Anglo_American_Racers' .
 
 f1:brabham-repco rdf:type f1:Constructor;
                     rdfs:label 'Brabham-Repco'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brabham' .
 
 f1:cooper-ferrari rdf:type f1:Constructor;
                     rdfs:label 'Cooper-Ferrari'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:cooper-ats rdf:type f1:Constructor;
                     rdfs:label 'Cooper-ATS'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:mclaren-brm rdf:type f1:Constructor;
                     rdfs:label 'McLaren-BRM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/McLaren_(racing)' .
 
 f1:cooper-brm rdf:type f1:Constructor;
                     rdfs:label 'Cooper-BRM'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Cooper_Car_Company' .
 
 f1:matra-ford rdf:type f1:Constructor;
                     rdfs:label 'Matra-Ford'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Matra' .
 
 f1:brm-ford rdf:type f1:Constructor;
                     rdfs:label 'BRM-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/BRM' .
 
 f1:mclaren-alfa_romeo rdf:type f1:Constructor;
                     rdfs:label 'McLaren-Alfa Romeo'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/McLaren_(racing)' .
 
 f1:march-alfa_romeo rdf:type f1:Constructor;
                     rdfs:label 'March-Alfa Romeo'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/March_Engineering' .
 
 f1:march-ford rdf:type f1:Constructor;
                     rdfs:label 'March-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/March_Engineering' .
 
 f1:lotus-pw rdf:type f1:Constructor;
                     rdfs:label 'Lotus-Pratt &amp; Whitney'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Team_Lotus' .
 
 f1:shadow-ford rdf:type f1:Constructor;
                     rdfs:label 'Shadow-Ford'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Shadow_Racing_Cars' .
 
 f1:shadow-matra rdf:type f1:Constructor;
                     rdfs:label 'Shadow-Matra'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Shadow_Racing_Cars' .
 
 f1:brabham-alfa_romeo rdf:type f1:Constructor;
                     rdfs:label 'Brabham-Alfa Romeo'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Brabham' .
 
 f1:lotus_racing rdf:type f1:Constructor;
                     rdfs:label 'Lotus'@en;
-                    f1:nationality 'fMalaysian' .
+                    f1:nationality 'fMalaysian';
+                    f1:link 'http://en.wikipedia.org/wiki/Lotus_Racing' .
 
 f1:marussia rdf:type f1:Constructor;
                     rdfs:label 'Marussia'@en;
-                    f1:nationality 'fRussian' .
+                    f1:nationality 'fRussian';
+                    f1:link 'http://en.wikipedia.org/wiki/Marussia_F1' .
 
 f1:caterham rdf:type f1:Constructor;
                     rdfs:label 'Caterham'@en;
-                    f1:nationality 'fMalaysian' .
+                    f1:nationality 'fMalaysian';
+                    f1:link 'http://en.wikipedia.org/wiki/Caterham_F1' .
 
 f1:lotus_f1 rdf:type f1:Constructor;
                     rdfs:label 'Lotus F1'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Lotus_F1' .
 
 f1:manor rdf:type f1:Constructor;
                     rdfs:label 'Manor Marussia'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Manor_Motorsport' .
 
 f1:haas rdf:type f1:Constructor;
                     rdfs:label 'Haas F1 Team'@en;
-                    f1:nationality 'fAmerican' .
+                    f1:nationality 'fAmerican';
+                    f1:link 'http://en.wikipedia.org/wiki/Haas_F1_Team' .
 
 f1:racing_point rdf:type f1:Constructor;
                     rdfs:label 'Racing Point'@en;
-                    f1:nationality 'fBritish' .
+                    f1:nationality 'fBritish';
+                    f1:link 'http://en.wikipedia.org/wiki/Racing_Point_F1_Team' .
 
 f1:alphatauri rdf:type f1:Constructor;
                     rdfs:label 'AlphaTauri'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/Scuderia_AlphaTauri' .
 
 f1:alpine rdf:type f1:Constructor;
                     rdfs:label 'Alpine F1 Team'@en;
-                    f1:nationality 'fFrench' .
+                    f1:nationality 'fFrench';
+                    f1:link 'http://en.wikipedia.org/wiki/Alpine_F1_Team' .
 
 f1:rb rdf:type f1:Constructor;
                     rdfs:label 'RB F1 Team'@en;
-                    f1:nationality 'fItalian' .
+                    f1:nationality 'fItalian';
+                    f1:link 'http://en.wikipedia.org/wiki/RB_Formula_One_Team' .
+f1:Circuit a rdf:Class, owl:Class;
+	rdfs:label 'A F1 Circuit'@en;
+	rdfs:comment 'A class representing a F1 circuit'@en.
+
+f1:City a rdf:Class, owl:Class;
+	rdfs:label 'A City'@en;
+	rdfs:comment 'A City in the world related to f1'@en;.
+
+f1:hostCity a rdf:Property;
+	rdfs:label 'City'@en;
+	rdfs:comment 'a City hosting a F1 circuit'@en;
+	rdfs:domain f1:Circuit.
+
+f1:hostCountry a rdf:Property;
+	rdfs:label 'Country'@en;
+	rdfs:comment 'a Country hosting a F1 circuit'@en;
+	rdfs:domain f1:Circuit.
+
+f1:albert_park rdf:type f1:Circuit;
+	rdfs:label 'Albert Park Grand Prix Circuit'@en;
+	f1:hostCity f1:Melbourne;
+	f1:hostCountry f1:Australia;
+	geo:lat "-37.8497"^^xsd:float;
+	geo:long "144.968"^^xsd:float.
+
+f1:sepang rdf:type f1:Circuit;
+	rdfs:label 'Sepang International Circuit'@en;
+	f1:hostCity f1:Kuala Lumpur;
+	f1:hostCountry f1:Malaysia;
+	geo:lat "2.76083"^^xsd:float;
+	geo:long "101.738"^^xsd:float.
+
+f1:bahrain rdf:type f1:Circuit;
+	rdfs:label 'Bahrain International Circuit'@en;
+	f1:hostCity f1:Sakhir;
+	f1:hostCountry f1:Bahrain;
+	geo:lat "26.0325"^^xsd:float;
+	geo:long "50.5106"^^xsd:float.
+
+f1:catalunya rdf:type f1:Circuit;
+	rdfs:label 'Circuit de Barcelona-Catalunya'@en;
+	f1:hostCity f1:Montmel√≥;
+	f1:hostCountry f1:Spain;
+	geo:lat "41.57"^^xsd:float;
+	geo:long "2.26111"^^xsd:float.
+
+f1:istanbul rdf:type f1:Circuit;
+	rdfs:label 'Istanbul Park'@en;
+	f1:hostCity f1:Istanbul;
+	f1:hostCountry f1:Turkey;
+	geo:lat "40.9517"^^xsd:float;
+	geo:long "29.405"^^xsd:float.
+
+f1:monaco rdf:type f1:Circuit;
+	rdfs:label 'Circuit de Monaco'@en;
+	f1:hostCity f1:Monte-Carlo;
+	f1:hostCountry f1:Monaco;
+	geo:lat "43.7347"^^xsd:float;
+	geo:long "7.42056"^^xsd:float.
+
+f1:villeneuve rdf:type f1:Circuit;
+	rdfs:label 'Circuit Gilles Villeneuve'@en;
+	f1:hostCity f1:Montreal;
+	f1:hostCountry f1:Canada;
+	geo:lat "45.5"^^xsd:float;
+	geo:long "-73.5228"^^xsd:float.
+
+f1:magny_cours rdf:type f1:Circuit;
+	rdfs:label 'Circuit de Nevers Magny-Cours'@en;
+	f1:hostCity f1:Magny Cours;
+	f1:hostCountry f1:France;
+	geo:lat "46.8642"^^xsd:float;
+	geo:long "3.16361"^^xsd:float.
+
+f1:silverstone rdf:type f1:Circuit;
+	rdfs:label 'Silverstone Circuit'@en;
+	f1:hostCity f1:Silverstone;
+	f1:hostCountry f1:UK;
+	geo:lat "52.0786"^^xsd:float;
+	geo:long "-1.01694"^^xsd:float.
+
+f1:hockenheimring rdf:type f1:Circuit;
+	rdfs:label 'Hockenheimring'@en;
+	f1:hostCity f1:Hockenheim;
+	f1:hostCountry f1:Germany;
+	geo:lat "49.3278"^^xsd:float;
+	geo:long "8.56583"^^xsd:float.
+
+f1:hungaroring rdf:type f1:Circuit;
+	rdfs:label 'Hungaroring'@en;
+	f1:hostCity f1:Budapest;
+	f1:hostCountry f1:Hungary;
+	geo:lat "47.5789"^^xsd:float;
+	geo:long "19.2486"^^xsd:float.
+
+f1:valencia rdf:type f1:Circuit;
+	rdfs:label 'Valencia Street Circuit'@en;
+	f1:hostCity f1:Valencia;
+	f1:hostCountry f1:Spain;
+	geo:lat "39.4589"^^xsd:float;
+	geo:long "-0.331667"^^xsd:float.
+
+f1:spa rdf:type f1:Circuit;
+	rdfs:label 'Circuit de Spa-Francorchamps'@en;
+	f1:hostCity f1:Spa;
+	f1:hostCountry f1:Belgium;
+	geo:lat "50.4372"^^xsd:float;
+	geo:long "5.97139"^^xsd:float.
+
+f1:monza rdf:type f1:Circuit;
+	rdfs:label 'Autodromo Nazionale di Monza'@en;
+	f1:hostCity f1:Monza;
+	f1:hostCountry f1:Italy;
+	geo:lat "45.6156"^^xsd:float;
+	geo:long "9.28111"^^xsd:float.
+
+f1:marina_bay rdf:type f1:Circuit;
+	rdfs:label 'Marina Bay Street Circuit'@en;
+	f1:hostCity f1:Marina Bay;
+	f1:hostCountry f1:Singapore;
+	geo:lat "1.2914"^^xsd:float;
+	geo:long "103.864"^^xsd:float.
+
+f1:fuji rdf:type f1:Circuit;
+	rdfs:label 'Fuji Speedway'@en;
+	f1:hostCity f1:Oyama;
+	f1:hostCountry f1:Japan;
+	geo:lat "35.3717"^^xsd:float;
+	geo:long "138.927"^^xsd:float.
+
+f1:shanghai rdf:type f1:Circuit;
+	rdfs:label 'Shanghai International Circuit'@en;
+	f1:hostCity f1:Shanghai;
+	f1:hostCountry f1:China;
+	geo:lat "31.3389"^^xsd:float;
+	geo:long "121.22"^^xsd:float.
+
+f1:interlagos rdf:type f1:Circuit;
+	rdfs:label 'Aut√≥dromo Jos√© Carlos Pace'@en;
+	f1:hostCity f1:S√£o Paulo;
+	f1:hostCountry f1:Brazil;
+	geo:lat "-23.7036"^^xsd:float;
+	geo:long "-46.6997"^^xsd:float.
+
+f1:indianapolis rdf:type f1:Circuit;
+	rdfs:label 'Indianapolis Motor Speedway'@en;
+	f1:hostCity f1:Indianapolis;
+	f1:hostCountry f1:USA;
+	geo:lat "39.795"^^xsd:float;
+	geo:long "-86.2347"^^xsd:float.
+
+f1:nurburgring rdf:type f1:Circuit;
+	rdfs:label 'N√ºrburgring'@en;
+	f1:hostCity f1:N√ºrburg;
+	f1:hostCountry f1:Germany;
+	geo:lat "50.3356"^^xsd:float;
+	geo:long "6.9475"^^xsd:float.
+
+f1:imola rdf:type f1:Circuit;
+	rdfs:label 'Autodromo Enzo e Dino Ferrari'@en;
+	f1:hostCity f1:Imola;
+	f1:hostCountry f1:Italy;
+	geo:lat "44.3439"^^xsd:float;
+	geo:long "11.7167"^^xsd:float.
+
+f1:suzuka rdf:type f1:Circuit;
+	rdfs:label 'Suzuka Circuit'@en;
+	f1:hostCity f1:Suzuka;
+	f1:hostCountry f1:Japan;
+	geo:lat "34.8431"^^xsd:float;
+	geo:long "136.541"^^xsd:float.
+
+f1:vegas rdf:type f1:Circuit;
+	rdfs:label 'Las Vegas Strip Street Circuit'@en;
+	f1:hostCity f1:Las Vegas;
+	f1:hostCountry f1:United States;
+	geo:lat "36.1147"^^xsd:float;
+	geo:long "-115.173"^^xsd:float.
+
+f1:yas_marina rdf:type f1:Circuit;
+	rdfs:label 'Yas Marina Circuit'@en;
+	f1:hostCity f1:Abu Dhabi;
+	f1:hostCountry f1:UAE;
+	geo:lat "24.4672"^^xsd:float;
+	geo:long "54.6031"^^xsd:float.
+
+f1:galvez rdf:type f1:Circuit;
+	rdfs:label 'Aut√≥dromo Juan y Oscar G√°lvez'@en;
+	f1:hostCity f1:Buenos Aires;
+	f1:hostCountry f1:Argentina;
+	geo:lat "-34.6943"^^xsd:float;
+	geo:long "-58.4593"^^xsd:float.
+
+f1:jerez rdf:type f1:Circuit;
+	rdfs:label 'Circuito de Jerez'@en;
+	f1:hostCity f1:Jerez de la Frontera;
+	f1:hostCountry f1:Spain;
+	geo:lat "36.7083"^^xsd:float;
+	geo:long "-6.03417"^^xsd:float.
+
+f1:estoril rdf:type f1:Circuit;
+	rdfs:label 'Aut√≥dromo do Estoril'@en;
+	f1:hostCity f1:Estoril;
+	f1:hostCountry f1:Portugal;
+	geo:lat "38.7506"^^xsd:float;
+	geo:long "-9.39417"^^xsd:float.
+
+f1:okayama rdf:type f1:Circuit;
+	rdfs:label 'Okayama International Circuit'@en;
+	f1:hostCity f1:Okayama;
+	f1:hostCountry f1:Japan;
+	geo:lat "34.915"^^xsd:float;
+	geo:long "134.221"^^xsd:float.
+
+f1:adelaide rdf:type f1:Circuit;
+	rdfs:label 'Adelaide Street Circuit'@en;
+	f1:hostCity f1:Adelaide;
+	f1:hostCountry f1:Australia;
+	geo:lat "-34.9272"^^xsd:float;
+	geo:long "138.617"^^xsd:float.
+
+f1:kyalami rdf:type f1:Circuit;
+	rdfs:label 'Kyalami'@en;
+	f1:hostCity f1:Midrand;
+	f1:hostCountry f1:South Africa;
+	geo:lat "-25.9894"^^xsd:float;
+	geo:long "28.0767"^^xsd:float.
+
+f1:donington rdf:type f1:Circuit;
+	rdfs:label 'Donington Park'@en;
+	f1:hostCity f1:Castle Donington;
+	f1:hostCountry f1:UK;
+	geo:lat "52.8306"^^xsd:float;
+	geo:long "-1.37528"^^xsd:float.
+
+f1:rodriguez rdf:type f1:Circuit;
+	rdfs:label 'Aut√≥dromo Hermanos Rodr√≠guez'@en;
+	f1:hostCity f1:Mexico City;
+	f1:hostCountry f1:Mexico;
+	geo:lat "19.4042"^^xsd:float;
+	geo:long "-99.0907"^^xsd:float.
+
+f1:phoenix rdf:type f1:Circuit;
+	rdfs:label 'Phoenix street circuit'@en;
+	f1:hostCity f1:Phoenix;
+	f1:hostCountry f1:USA;
+	geo:lat "33.4479"^^xsd:float;
+	geo:long "-112.075"^^xsd:float.
+
+f1:ricard rdf:type f1:Circuit;
+	rdfs:label 'Circuit Paul Ricard'@en;
+	f1:hostCity f1:Le Castellet;
+	f1:hostCountry f1:France;
+	geo:lat "43.2506"^^xsd:float;
+	geo:long "5.79167"^^xsd:float.
+
+f1:yeongam rdf:type f1:Circuit;
+	rdfs:label 'Korean International Circuit'@en;
+	f1:hostCity f1:Yeongam County;
+	f1:hostCountry f1:Korea;
+	geo:lat "34.7333"^^xsd:float;
+	geo:long "126.417"^^xsd:float.
+
+f1:jacarepagua rdf:type f1:Circuit;
+	rdfs:label 'Aut√≥dromo Internacional Nelson Piquet'@en;
+	f1:hostCity f1:Rio de Janeiro;
+	f1:hostCountry f1:Brazil;
+	geo:lat "-22.9756"^^xsd:float;
+	geo:long "-43.395"^^xsd:float.
+
+f1:detroit rdf:type f1:Circuit;
+	rdfs:label 'Detroit Street Circuit'@en;
+	f1:hostCity f1:Detroit;
+	f1:hostCountry f1:USA;
+	geo:lat "42.3298"^^xsd:float;
+	geo:long "-83.0401"^^xsd:float.
+
+f1:brands_hatch rdf:type f1:Circuit;
+	rdfs:label 'Brands Hatch'@en;
+	f1:hostCity f1:Kent;
+	f1:hostCountry f1:UK;
+	geo:lat "51.3569"^^xsd:float;
+	geo:long "0.263056"^^xsd:float.
+
+f1:zandvoort rdf:type f1:Circuit;
+	rdfs:label 'Circuit Park Zandvoort'@en;
+	f1:hostCity f1:Zandvoort;
+	f1:hostCountry f1:Netherlands;
+	geo:lat "52.3888"^^xsd:float;
+	geo:long "4.54092"^^xsd:float.
+
+f1:zolder rdf:type f1:Circuit;
+	rdfs:label 'Zolder'@en;
+	f1:hostCity f1:Heusden-Zolder;
+	f1:hostCountry f1:Belgium;
+	geo:lat "50.9894"^^xsd:float;
+	geo:long "5.25694"^^xsd:float.
+
+f1:dijon rdf:type f1:Circuit;
+	rdfs:label 'Dijon-Prenois'@en;
+	f1:hostCity f1:Dijon;
+	f1:hostCountry f1:France;
+	geo:lat "47.3625"^^xsd:float;
+	geo:long "4.89913"^^xsd:float.
+
+f1:dallas rdf:type f1:Circuit;
+	rdfs:label 'Fair Park'@en;
+	f1:hostCity f1:Dallas;
+	f1:hostCountry f1:USA;
+	geo:lat "32.7774"^^xsd:float;
+	geo:long "-96.7587"^^xsd:float.
+
+f1:long_beach rdf:type f1:Circuit;
+	rdfs:label 'Long Beach'@en;
+	f1:hostCity f1:California;
+	f1:hostCountry f1:USA;
+	geo:lat "33.7651"^^xsd:float;
+	geo:long "-118.189"^^xsd:float.
+
+f1:las_vegas rdf:type f1:Circuit;
+	rdfs:label 'Las Vegas Street Circuit'@en;
+	f1:hostCity f1:Nevada;
+	f1:hostCountry f1:USA;
+	geo:lat "36.1162"^^xsd:float;
+	geo:long "-115.174"^^xsd:float.
+
+f1:jarama rdf:type f1:Circuit;
+	rdfs:label 'Jarama'@en;
+	f1:hostCity f1:Madrid;
+	f1:hostCountry f1:Spain;
+	geo:lat "40.6171"^^xsd:float;
+	geo:long "-3.58558"^^xsd:float.
+
+f1:watkins_glen rdf:type f1:Circuit;
+	rdfs:label 'Watkins Glen'@en;
+	f1:hostCity f1:New York State;
+	f1:hostCountry f1:USA;
+	geo:lat "42.3369"^^xsd:float;
+	geo:long "-76.9272"^^xsd:float.
+
+f1:anderstorp rdf:type f1:Circuit;
+	rdfs:label 'Scandinavian Raceway'@en;
+	f1:hostCity f1:Anderstorp;
+	f1:hostCountry f1:Sweden;
+	geo:lat "57.2653"^^xsd:float;
+	geo:long "13.6042"^^xsd:float.
+
+f1:mosport rdf:type f1:Circuit;
+	rdfs:label 'Mosport International Raceway'@en;
+	f1:hostCity f1:Ontario;
+	f1:hostCountry f1:Canada;
+	geo:lat "44.0481"^^xsd:float;
+	geo:long "-78.6756"^^xsd:float.
+
+f1:montjuic rdf:type f1:Circuit;
+	rdfs:label 'Montju√Øc'@en;
+	f1:hostCity f1:Barcelona;
+	f1:hostCountry f1:Spain;
+	geo:lat "41.3664"^^xsd:float;
+	geo:long "2.15167"^^xsd:float.
+
+f1:nivelles rdf:type f1:Circuit;
+	rdfs:label 'Nivelles-Baulers'@en;
+	f1:hostCity f1:Brussels;
+	f1:hostCountry f1:Belgium;
+	geo:lat "50.6211"^^xsd:float;
+	geo:long "4.32694"^^xsd:float.
+
+f1:charade rdf:type f1:Circuit;
+	rdfs:label 'Charade Circuit'@en;
+	f1:hostCity f1:Clermont-Ferrand;
+	f1:hostCountry f1:France;
+	geo:lat "45.7472"^^xsd:float;
+	geo:long "3.03889"^^xsd:float.
+
+f1:tremblant rdf:type f1:Circuit;
+	rdfs:label 'Circuit Mont-Tremblant'@en;
+	f1:hostCity f1:Quebec;
+	f1:hostCountry f1:Canada;
+	geo:lat "46.1877"^^xsd:float;
+	geo:long "-74.6099"^^xsd:float.
+
+f1:essarts rdf:type f1:Circuit;
+	rdfs:label 'Rouen-Les-Essarts'@en;
+	f1:hostCity f1:Rouen;
+	f1:hostCountry f1:France;
+	geo:lat "49.3306"^^xsd:float;
+	geo:long "1.00458"^^xsd:float.
+
+f1:lemans rdf:type f1:Circuit;
+	rdfs:label 'Le Mans'@en;
+	f1:hostCity f1:Le Mans;
+	f1:hostCountry f1:France;
+	geo:lat "47.95"^^xsd:float;
+	geo:long "0.224231"^^xsd:float.
+
+f1:reims rdf:type f1:Circuit;
+	rdfs:label 'Reims-Gueux'@en;
+	f1:hostCity f1:Reims;
+	f1:hostCountry f1:France;
+	geo:lat "49.2542"^^xsd:float;
+	geo:long "3.93083"^^xsd:float.
+
+f1:george rdf:type f1:Circuit;
+	rdfs:label 'Prince George Circuit'@en;
+	f1:hostCity f1:Eastern Cape Province;
+	f1:hostCountry f1:South Africa;
+	geo:lat "-33.0486"^^xsd:float;
+	geo:long "27.8736"^^xsd:float.
+
+f1:zeltweg rdf:type f1:Circuit;
+	rdfs:label 'Zeltweg'@en;
+	f1:hostCity f1:Styria;
+	f1:hostCountry f1:Austria;
+	geo:lat "47.2039"^^xsd:float;
+	geo:long "14.7478"^^xsd:float.
+
+f1:aintree rdf:type f1:Circuit;
+	rdfs:label 'Aintree'@en;
+	f1:hostCity f1:Liverpool;
+	f1:hostCountry f1:UK;
+	geo:lat "53.4769"^^xsd:float;
+	geo:long "-2.94056"^^xsd:float.
+
+f1:boavista rdf:type f1:Circuit;
+	rdfs:label 'Circuito da Boavista'@en;
+	f1:hostCity f1:Oporto;
+	f1:hostCountry f1:Portugal;
+	geo:lat "41.1705"^^xsd:float;
+	geo:long "-8.67325"^^xsd:float.
+
+f1:riverside rdf:type f1:Circuit;
+	rdfs:label 'Riverside International Raceway'@en;
+	f1:hostCity f1:California;
+	f1:hostCountry f1:USA;
+	geo:lat "33.937"^^xsd:float;
+	geo:long "-117.273"^^xsd:float.
+
+f1:avus rdf:type f1:Circuit;
+	rdfs:label 'AVUS'@en;
+	f1:hostCity f1:Berlin;
+	f1:hostCountry f1:Germany;
+	geo:lat "52.4806"^^xsd:float;
+	geo:long "13.2514"^^xsd:float.
+
+f1:monsanto rdf:type f1:Circuit;
+	rdfs:label 'Monsanto Park Circuit'@en;
+	f1:hostCity f1:Lisbon;
+	f1:hostCountry f1:Portugal;
+	geo:lat "38.7197"^^xsd:float;
+	geo:long "-9.20306"^^xsd:float.
+
+f1:sebring rdf:type f1:Circuit;
+	rdfs:label 'Sebring International Raceway'@en;
+	f1:hostCity f1:Florida;
+	f1:hostCountry f1:USA;
+	geo:lat "27.4547"^^xsd:float;
+	geo:long "-81.3483"^^xsd:float.
+
+f1:ain-diab rdf:type f1:Circuit;
+	rdfs:label 'Ain Diab'@en;
+	f1:hostCity f1:Casablanca;
+	f1:hostCountry f1:Morocco;
+	geo:lat "33.5786"^^xsd:float;
+	geo:long "-7.6875"^^xsd:float.
+
+f1:pescara rdf:type f1:Circuit;
+	rdfs:label 'Pescara Circuit'@en;
+	f1:hostCity f1:Pescara;
+	f1:hostCountry f1:Italy;
+	geo:lat "42.475"^^xsd:float;
+	geo:long "14.1508"^^xsd:float.
+
+f1:bremgarten rdf:type f1:Circuit;
+	rdfs:label 'Circuit Bremgarten'@en;
+	f1:hostCity f1:Bern;
+	f1:hostCountry f1:Switzerland;
+	geo:lat "46.9589"^^xsd:float;
+	geo:long "7.40194"^^xsd:float.
+
+f1:pedralbes rdf:type f1:Circuit;
+	rdfs:label 'Circuit de Pedralbes'@en;
+	f1:hostCity f1:Barcelona;
+	f1:hostCountry f1:Spain;
+	geo:lat "41.3903"^^xsd:float;
+	geo:long "2.11667"^^xsd:float.
+
+f1:buddh rdf:type f1:Circuit;
+	rdfs:label 'Buddh International Circuit'@en;
+	f1:hostCity f1:Uttar Pradesh;
+	f1:hostCountry f1:India;
+	geo:lat "28.3487"^^xsd:float;
+	geo:long "77.5331"^^xsd:float.
+
+f1:americas rdf:type f1:Circuit;
+	rdfs:label 'Circuit of the Americas'@en;
+	f1:hostCity f1:Austin;
+	f1:hostCountry f1:USA;
+	geo:lat "30.1328"^^xsd:float;
+	geo:long "-97.6411"^^xsd:float.
+
+f1:red_bull_ring rdf:type f1:Circuit;
+	rdfs:label 'Red Bull Ring'@en;
+	f1:hostCity f1:Spielberg;
+	f1:hostCountry f1:Austria;
+	geo:lat "47.2197"^^xsd:float;
+	geo:long "14.7647"^^xsd:float.
+
+f1:sochi rdf:type f1:Circuit;
+	rdfs:label 'Sochi Autodrom'@en;
+	f1:hostCity f1:Sochi;
+	f1:hostCountry f1:Russia;
+	geo:lat "43.4057"^^xsd:float;
+	geo:long "39.9578"^^xsd:float.
+
+f1:baku rdf:type f1:Circuit;
+	rdfs:label 'Baku City Circuit'@en;
+	f1:hostCity f1:Baku;
+	f1:hostCountry f1:Azerbaijan;
+	geo:lat "40.3725"^^xsd:float;
+	geo:long "49.8533"^^xsd:float.
+
+f1:portimao rdf:type f1:Circuit;
+	rdfs:label 'Aut√≥dromo Internacional do Algarve'@en;
+	f1:hostCity f1:Portim√£o;
+	f1:hostCountry f1:Portugal;
+	geo:lat "37.227"^^xsd:float;
+	geo:long "-8.6267"^^xsd:float.
+
+f1:mugello rdf:type f1:Circuit;
+	rdfs:label 'Autodromo Internazionale del Mugello'@en;
+	f1:hostCity f1:Mugello;
+	f1:hostCountry f1:Italy;
+	geo:lat "43.9975"^^xsd:float;
+	geo:long "11.3719"^^xsd:float.
+
+f1:jeddah rdf:type f1:Circuit;
+	rdfs:label 'Jeddah Corniche Circuit'@en;
+	f1:hostCity f1:Jeddah;
+	f1:hostCountry f1:Saudi Arabia;
+	geo:lat "21.6319"^^xsd:float;
+	geo:long "39.1044"^^xsd:float.
+
+f1:losail rdf:type f1:Circuit;
+	rdfs:label 'Losail International Circuit'@en;
+	f1:hostCity f1:Al Daayen;
+	f1:hostCountry f1:Qatar;
+	geo:lat "25.49"^^xsd:float;
+	geo:long "51.4542"^^xsd:float.
+
+f1:miami rdf:type f1:Circuit;
+	rdfs:label 'Miami International Autodrome'@en;
+	f1:hostCity f1:Miami;
+	f1:hostCountry f1:USA;
+	geo:lat "25.9581"^^xsd:float;
+	geo:long "-80.2389"^^xsd:float.
+
