@@ -7,7 +7,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 f1:Nationality a rdf:Class, owl:Class;
-	rdfs:label 'A F1 nationality'@en;
+	rdfs:label 'A F1 nationality'@en;	
 	rdfs:comment 'A class representing a nationality related to F1'@en.
 
 f1:Driver a rdf:Class, owl:Class;
