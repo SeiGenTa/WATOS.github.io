@@ -1,4 +1,5 @@
 @prefix f1: <http://ex.org/f1#>.
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix geo:  <http://www.opengis.net/ont/geosparql#>
 @prefix owl: <http://www.w3.org/2002/07/owl#>.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
@@ -217,17 +218,17 @@ f1:Nakajima a f1:Driver;
 	f1:Code 'NAK'.
 
 f1:Bourdais a f1:Driver;
-	rdfs:label "Sébastien Bourdais"@en;
+	rdfs:label "Sï¿½bastien Bourdais"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1979-02-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'BOU'.
 
 f1:Raikkonen a f1:Driver;
-	rdfs:label "Kimi Räikkönen"@en;
+	rdfs:label "Kimi Rï¿½ikkï¿½nen"@en;
 	f1:Nationality f1:Finnish;
 	f1:dateOfBirth '1979-10-17'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'RAI'.
 
 f1:Kubica a f1:Driver;
@@ -255,7 +256,7 @@ f1:Piquet_Jr a f1:Driver;
 	rdfs:label "Nelson Piquet Jr."@en;
 	f1:Nationality f1:Brazilian;
 	f1:dateOfBirth '1985-07-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'PIQ'.
 
 f1:Massa a f1:Driver;
@@ -462,10 +463,10 @@ f1:Zonta a f1:Driver;
 	f1:Code 'ZON'.
 
 f1:Pizzonia a f1:Driver;
-	rdfs:label "Antônio Pizzonia"@en;
+	rdfs:label "Antï¿½nio Pizzonia"@en;
 	f1:Nationality f1:Brazilian;
 	f1:dateOfBirth '1980-09-11'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'PIZ'.
 
 f1:Matta a f1:Driver;
@@ -499,10 +500,10 @@ f1:Baumgartner a f1:Driver;
 	owl:sameAs wd:Q172002.
 
 f1:Gene a f1:Driver;
-	rdfs:label "Marc Gené"@en;
+	rdfs:label "Marc Genï¿½"@en;
 	f1:Nationality f1:Spanish;
 	f1:dateOfBirth '1974-03-29'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Frentzen a f1:Driver;
 	rdfs:label "Heinz-Harald Frentzen"@en;
@@ -553,10 +554,10 @@ f1:Irvine a f1:Driver;
 	owl:sameAs wd:Q171397.
 
 f1:Hakkinen a f1:Driver;
-	rdfs:label "Mika Häkkinen"@en;
+	rdfs:label "Mika Hï¿½kkinen"@en;
 	f1:Nationality f1:Finnish;
 	f1:dateOfBirth '1968-09-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Marques a f1:Driver;
 	rdfs:label "Tarso Marques"@en;
@@ -571,16 +572,16 @@ f1:Bernoldi a f1:Driver;
 	owl:sameAs wd:Q172961.
 
 f1:Mazzacane a f1:Driver;
-	rdfs:label "Gastón Mazzacane"@en;
+	rdfs:label "Gastï¿½n Mazzacane"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1975-05-08'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Enge a f1:Driver;
-	rdfs:label "Tomáš Enge"@en;
+	rdfs:label "Tomï¿½ Enge"@en;
 	f1:Nationality f1:Czech;
 	f1:dateOfBirth '1976-09-11'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Yoong a f1:Driver;
 	rdfs:label "Alex Yoong"@en;
@@ -613,10 +614,10 @@ f1:Mcnish a f1:Driver;
 	owl:sameAs wd:Q173002.
 
 f1:Buemi a f1:Driver;
-	rdfs:label "Sébastien Buemi"@en;
+	rdfs:label "Sï¿½bastien Buemi"@en;
 	f1:Nationality f1:Swiss;
 	f1:dateOfBirth '1988-10-31'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'BUE'.
 
 f1:Takagi a f1:Driver;
@@ -645,10 +646,10 @@ f1:Damon_Hill a f1:Driver;
 	owl:sameAs wd:Q10505.
 
 f1:Sarrazin a f1:Driver;
-	rdfs:label "Stéphane Sarrazin"@en;
+	rdfs:label "Stï¿½phane Sarrazin"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1975-11-02'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Rosset a f1:Driver;
 	rdfs:label "Ricardo Rosset"@en;
@@ -799,13 +800,13 @@ f1:Papis a f1:Driver;
 	rdfs:label "Massimiliano Papis"@en;
 	f1:Nationality f1:Italian;
 	f1:dateOfBirth '1969-10-03'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Deletraz a f1:Driver;
-	rdfs:label "Jean-Denis Délétraz"@en;
+	rdfs:label "Jean-Denis Dï¿½lï¿½traz"@en;
 	f1:Nationality f1:Swiss;
 	f1:dateOfBirth '1963-10-01'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Tarquini a f1:Driver;
 	rdfs:label "Gabriele Tarquini"@en;
@@ -814,10 +815,10 @@ f1:Tarquini a f1:Driver;
 	owl:sameAs wd:Q173299.
 
 f1:Comas a f1:Driver;
-	rdfs:label "Érik Comas"@en;
+	rdfs:label "ï¿½rik Comas"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1963-09-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Brabham a f1:Driver;
 	rdfs:label "David Brabham"@en;
@@ -832,10 +833,10 @@ f1:Senna a f1:Driver;
 	owl:sameAs wd:Q10490.
 
 f1:Bernard a f1:Driver;
-	rdfs:label "Éric Bernard"@en;
+	rdfs:label "ï¿½ric Bernard"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1964-08-24'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Fittipaldi a f1:Driver;
 	rdfs:label "Christian Fittipaldi"@en;
@@ -868,10 +869,10 @@ f1:Belmondo a f1:Driver;
 	owl:sameAs wd:Q171557.
 
 f1:Lehto a f1:Driver;
-	rdfs:label "Jyrki Järvilehto"@en;
+	rdfs:label "Jyrki Jï¿½rvilehto"@en;
 	f1:Nationality f1:Finnish;
 	f1:dateOfBirth '1966-01-31'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Cesaris a f1:Driver;
 	rdfs:label "Andrea de Cesaris"@en;
@@ -973,13 +974,13 @@ f1:Toshio_Suzuki a f1:Driver;
 	rdfs:label "Toshio Suzuki"@en;
 	f1:Nationality f1:Japanese;
 	f1:dateOfBirth '1955-03-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gugelmin a f1:Driver;
-	rdfs:label "Maurício Gugelmin"@en;
+	rdfs:label "Maurï¿½cio Gugelmin"@en;
 	f1:Nationality f1:Brazilian;
 	f1:dateOfBirth '1963-04-20'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Poele a f1:Driver;
 	rdfs:label "Eric van de Poele"@en;
@@ -1093,7 +1094,7 @@ f1:Schneider a f1:Driver;
 	rdfs:label "Bernd Schneider"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1964-07-20'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Barilla a f1:Driver;
 	rdfs:label "Paolo Barilla"@en;
@@ -1171,10 +1172,10 @@ f1:Cheever a f1:Driver;
 	owl:sameAs wd:Q173205.
 
 f1:Sala a f1:Driver;
-	rdfs:label "Luis Pérez-Sala"@en;
+	rdfs:label "Luis Pï¿½rez-Sala"@en;
 	f1:Nationality f1:Spanish;
 	f1:dateOfBirth '1959-05-15'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Ghinzani a f1:Driver;
 	rdfs:label "Piercarlo Ghinzani"@en;
@@ -1195,10 +1196,10 @@ f1:Raphanel a f1:Driver;
 	owl:sameAs wd:Q171761.
 
 f1:Arnoux a f1:Driver;
-	rdfs:label "René Arnoux"@en;
+	rdfs:label "Renï¿½ Arnoux"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1948-07-04'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Joachim_Winkelhock a f1:Driver;
 	rdfs:label "Joachim Winkelhock"@en;
@@ -1219,10 +1220,10 @@ f1:Streiff a f1:Driver;
 	owl:sameAs wd:Q173084.
 
 f1:Campos a f1:Driver;
-	rdfs:label "Adrián Campos"@en;
+	rdfs:label "Adriï¿½n Campos"@en;
 	f1:Nationality f1:Spanish;
 	f1:dateOfBirth '1960-06-17'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Schlesser a f1:Driver;
 	rdfs:label "Jean-Louis Schlesser"@en;
@@ -1264,7 +1265,7 @@ f1:Dumfries a f1:Driver;
 	rdfs:label "Johnny Dumfries"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1958-04-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Tambay a f1:Driver;
 	rdfs:label "Patrick Tambay"@en;
@@ -1288,7 +1289,7 @@ f1:Jones a f1:Driver;
 	rdfs:label "Alan Jones"@en;
 	f1:Nationality f1:Australian;
 	f1:dateOfBirth '1946-11-02'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Rothengatter a f1:Driver;
 	rdfs:label "Huub Rothengatter"@en;
@@ -1315,10 +1316,10 @@ f1:Lauda a f1:Driver;
 	owl:sameAs wd:Q78489.
 
 f1:Hesnault a f1:Driver;
-	rdfs:label "François Hesnault"@en;
+	rdfs:label "Franï¿½ois Hesnault"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1956-12-30'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Baldi a f1:Driver;
 	rdfs:label "Mauro Baldi"@en;
@@ -1408,7 +1409,7 @@ f1:Villeneuve_Sr a f1:Driver;
 	rdfs:label "Jacques Villeneuve Sr."@en;
 	f1:Nationality f1:Canadian;
 	f1:dateOfBirth '1953-11-04'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Reutemann a f1:Driver;
 	rdfs:label "Carlos Reutemann"@en;
@@ -1474,13 +1475,13 @@ f1:Lees a f1:Driver;
 	rdfs:label "Geoff Lees"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1951-05-01'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Byrne a f1:Driver;
 	rdfs:label "Tommy Byrne"@en;
 	f1:Nationality f1:Irish;
 	f1:dateOfBirth '1958-05-06'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Keegan a f1:Driver;
 	rdfs:label "Rupert Keegan"@en;
@@ -1492,7 +1493,7 @@ f1:Rebaque a f1:Driver;
 	rdfs:label "Hector Rebaque"@en;
 	f1:Nationality f1:Mexican;
 	f1:dateOfBirth '1956-02-05'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gabbiani a f1:Driver;
 	rdfs:label "Beppe Gabbiani"@en;
@@ -1507,10 +1508,10 @@ f1:Cogan a f1:Driver;
 	owl:sameAs wd:Q552613.
 
 f1:Guerra a f1:Driver;
-	rdfs:label "Miguel Ángel Guerra"@en;
+	rdfs:label "Miguel ï¿½ngel Guerra"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1953-08-31'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Stohr a f1:Driver;
 	rdfs:label "Siegfried Stohr"@en;
@@ -1525,10 +1526,10 @@ f1:Zunino a f1:Driver;
 	owl:sameAs wd:Q172229.
 
 f1:Londono a f1:Driver;
-	rdfs:label "Ricardo Londoño"@en;
+	rdfs:label "Ricardo Londoï¿½o"@en;
 	f1:Nationality f1:Colombian;
 	f1:dateOfBirth '1949-08-08'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Jabouille a f1:Driver;
 	rdfs:label "Jean-Pierre Jabouille"@en;
@@ -1585,10 +1586,10 @@ f1:Needell a f1:Driver;
 	owl:sameAs wd:Q172265.
 
 f1:Desire_Wilson a f1:Driver;
-	rdfs:label "Desiré Wilson"@en;
+	rdfs:label "Desirï¿½ Wilson"@en;
 	f1:Nationality f1:South_African;
 	f1:dateOfBirth '1953-11-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Ertl a f1:Driver;
 	rdfs:label "Harald Ertl"@en;
@@ -1618,7 +1619,7 @@ f1:Stuck a f1:Driver;
 	rdfs:label "Hans-Joachim Stuck"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1951-01-01'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Brancatelli a f1:Driver;
 	rdfs:label "Gianfranco Brancatelli"@en;
@@ -1765,10 +1766,10 @@ f1:Hayje a f1:Driver;
 	owl:sameAs wd:Q172051.
 
 f1:Neve a f1:Driver;
-	rdfs:label "Patrick Nève"@en;
+	rdfs:label "Patrick Nï¿½ve"@en;
 	f1:Nationality f1:Belgian;
 	f1:dateOfBirth '1949-10-13'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Purley a f1:Driver;
 	rdfs:label "David Purley"@en;
@@ -1876,13 +1877,13 @@ f1:Evans a f1:Driver;
 	rdfs:label "Bob Evans"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1947-06-11'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Leclere a f1:Driver;
-	rdfs:label "Michel Leclère"@en;
+	rdfs:label "Michel Leclï¿½re"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1946-03-18'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Amon a f1:Driver;
 	rdfs:label "Chris Amon"@en;
@@ -1906,7 +1907,7 @@ f1:Nelleman a f1:Driver;
 	rdfs:label "Jac Nelleman"@en;
 	f1:Nationality f1:Danish;
 	f1:dateOfBirth '1944-04-19'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Magee a f1:Driver;
 	rdfs:label "Damien Magee"@en;
@@ -1960,7 +1961,7 @@ f1:Wilson_Fittipaldi a f1:Driver;
 	rdfs:label "Wilson Fittipaldi"@en;
 	f1:Nationality f1:Brazilian;
 	f1:dateOfBirth '1943-12-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Tunmer a f1:Driver;
 	rdfs:label "Guy Tunmer"@en;
@@ -1993,10 +1994,10 @@ f1:Wunderink a f1:Driver;
 	owl:sameAs wd:Q172224.
 
 f1:Migault a f1:Driver;
-	rdfs:label "François Migault"@en;
+	rdfs:label "Franï¿½ois Migault"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1944-12-04'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Palm a f1:Driver;
 	rdfs:label "Torsten Palm"@en;
@@ -2008,7 +2009,7 @@ f1:Lennep a f1:Driver;
 	rdfs:label "Gijs van Lennep"@en;
 	f1:Nationality f1:Dutch;
 	f1:dateOfBirth '1942-03-16'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Fushida a f1:Driver;
 	rdfs:label "Hiroshi Fushida"@en;
@@ -2032,7 +2033,7 @@ f1:Crawford a f1:Driver;
 	rdfs:label "Jim Crawford"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1948-02-13'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Vonlanthen a f1:Driver;
 	rdfs:label "Jo Vonlanthen"@en;
@@ -2084,10 +2085,10 @@ f1:Driver a rdf:Class, owl:Class, f1:Driver;
 	owl:sameAs wd:Q172501.
 
 f1:Belso a f1:Driver;
-	rdfs:label "Tom Belsø"@en;
+	rdfs:label "Tom Belsï¿½"@en;
 	f1:Nationality f1:Danish;
 	f1:dateOfBirth '1942-08-27'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Redman a f1:Driver;
 	rdfs:label "Brian Redman"@en;
@@ -2108,10 +2109,10 @@ f1:Schenken a f1:Driver;
 	owl:sameAs wd:Q171499.
 
 f1:Larrousse a f1:Driver;
-	rdfs:label "Gérard Larrousse"@en;
+	rdfs:label "Gï¿½rard Larrousse"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1940-05-23'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Kinnunen a f1:Driver;
 	rdfs:label "Leo Kinnunen"@en;
@@ -2132,10 +2133,10 @@ f1:Roos a f1:Driver;
 	owl:sameAs wd:Q172531.
 
 f1:Dolhem a f1:Driver;
-	rdfs:label "José Dolhem"@en;
+	rdfs:label "Josï¿½ Dolhem"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1944-04-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gethin a f1:Driver;
 	rdfs:label "Peter Gethin"@en;
@@ -2147,7 +2148,7 @@ f1:Bell a f1:Driver;
 	rdfs:label "Derek Bell"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1941-10-31'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Hobbs a f1:Driver;
 	rdfs:label "David Hobbs"@en;
@@ -2180,10 +2181,10 @@ f1:Wietzes a f1:Driver;
 	owl:sameAs wd:Q172285.
 
 f1:Cevert a f1:Driver;
-	rdfs:label "François Cevert"@en;
+	rdfs:label "Franï¿½ois Cevert"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1944-02-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Stewart a f1:Driver;
 	rdfs:label "Jackie Stewart"@en;
@@ -2255,7 +2256,7 @@ f1:Roig a f1:Driver;
 	rdfs:label "Alex Soler-Roig"@en;
 	f1:Nationality f1:Spanish;
 	f1:dateOfBirth '1932-10-29'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Love a f1:Driver;
 	rdfs:label "John Love"@en;
@@ -2288,10 +2289,10 @@ f1:Posey a f1:Driver;
 	owl:sameAs wd:Q172311.
 
 f1:Rodriguez a f1:Driver;
-	rdfs:label "Pedro Rodríguez"@en;
+	rdfs:label "Pedro Rodrï¿½guez"@en;
 	f1:Nationality f1:Mexican;
 	f1:dateOfBirth '1940-01-18'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Siffert a f1:Driver;
 	rdfs:label "Jo Siffert"@en;
@@ -2303,13 +2304,13 @@ f1:Bonnier a f1:Driver;
 	rdfs:label "Jo Bonnier"@en;
 	f1:Nationality f1:Swedish;
 	f1:dateOfBirth '1930-01-31'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Mazet a f1:Driver;
-	rdfs:label "François Mazet"@en;
+	rdfs:label "Franï¿½ois Mazet"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1943-02-24'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Jean a f1:Driver;
 	rdfs:label "Max Jean"@en;
@@ -2351,7 +2352,7 @@ f1:Cannoc a f1:Driver;
 	rdfs:label "John Cannon"@en;
 	f1:Nationality f1:Canadian;
 	f1:dateOfBirth '1933-06-21'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Jack_Brabham a f1:Driver;
 	rdfs:label "Jack Brabham"@en;
@@ -2363,7 +2364,7 @@ f1:Miles a f1:Driver;
 	rdfs:label "John Miles"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1943-06-14'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Rindt a f1:Driver;
 	rdfs:label "Jochen Rindt"@en;
@@ -2496,13 +2497,13 @@ f1:Ahrens a f1:Driver;
 	rdfs:label "Kurt Ahrens"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1940-04-19'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gardner a f1:Driver;
 	rdfs:label "Frank Gardner"@en;
 	f1:Nationality f1:Australian;
 	f1:dateOfBirth '1930-10-01'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Unser a f1:Driver;
 	rdfs:label "Bobby Unser"@en;
@@ -2511,10 +2512,10 @@ f1:Unser a f1:Driver;
 	owl:sameAs wd:Q172100.
 
 f1:Solana a f1:Driver;
-	rdfs:label "Moisés Solana"@en;
+	rdfs:label "Moisï¿½s Solana"@en;
 	f1:Nationality f1:Mexican;
 	f1:dateOfBirth '1935-12-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Anderson a f1:Driver;
 	rdfs:label "Bob Anderson"@en;
@@ -2574,13 +2575,13 @@ f1:Fisher a f1:Driver;
 	rdfs:label "Mike Fisher"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1943-03-13'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Tom_Jones a f1:Driver;
 	rdfs:label "Tom Jones"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1943-04-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Baghetti a f1:Driver;
 	rdfs:label "Giancarlo Baghetti"@en;
@@ -2610,13 +2611,13 @@ f1:Vic_Wilson a f1:Driver;
 	rdfs:label "Vic Wilson"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1931-04-14'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Taylor a f1:Driver;
 	rdfs:label "John Taylor"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1933-03-23'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Lawrence a f1:Driver;
 	rdfs:label "Chris Lawrence"@en;
@@ -2634,7 +2635,7 @@ f1:Geki a f1:Driver;
 	rdfs:label "Giacomo Russo"@en;
 	f1:Nationality f1:Italian;
 	f1:dateOfBirth '1937-10-23'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Phil_Hill a f1:Driver;
 	rdfs:label "Phil Hill"@en;
@@ -2736,7 +2737,7 @@ f1:Rhodes a f1:Driver;
 	rdfs:label "John Rhodes"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1927-08-18'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Raby a f1:Driver;
 	rdfs:label "Ian Raby"@en;
@@ -2793,10 +2794,10 @@ f1:Collomb a f1:Driver;
 	owl:sameAs wd:Q172805.
 
 f1:Andre_Pilette a f1:Driver;
-	rdfs:label "André Pilette"@en;
+	rdfs:label "Andrï¿½ Pilette"@en;
 	f1:Nationality f1:Belgian;
 	f1:dateOfBirth '1918-10-06'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Beaufort a f1:Driver;
 	rdfs:label "Carel Godin de Beaufort"@en;
@@ -2811,10 +2812,10 @@ f1:Barth a f1:Driver;
 	owl:sameAs wd:Q61286.
 
 f1:Cabral a f1:Driver;
-	rdfs:label "Mário de Araújo Cabral"@en;
+	rdfs:label "Mï¿½rio de Araï¿½jo Cabral"@en;
 	f1:Nationality f1:Portuguese;
 	f1:dateOfBirth '1934-01-15'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Hansgen a f1:Driver;
 	rdfs:label "Walt Hansgen"@en;
@@ -2853,16 +2854,16 @@ f1:Settember a f1:Driver;
 	owl:sameAs wd:Q172361.
 
 f1:Estefano a f1:Driver;
-	rdfs:label "Nasif Estéfano"@en;
+	rdfs:label "Nasif Estï¿½fano"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1932-11-18'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Hall a f1:Driver;
 	rdfs:label "Jim Hall"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1935-07-23'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Parnell a f1:Driver;
 	rdfs:label "Tim Parnell"@en;
@@ -2889,16 +2890,16 @@ f1:Lippi a f1:Driver;
 	owl:sameAs wd:Q45223.
 
 f1:Seiffert a f1:Driver;
-	rdfs:label "Günther Seiffert"@en;
+	rdfs:label "Gï¿½nther Seiffert"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1937-10-18'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Abate a f1:Driver;
 	rdfs:label "Carlo Abate"@en;
 	f1:Nationality f1:Italian;
 	f1:dateOfBirth '1932-07-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Starrabba a f1:Driver;
 	rdfs:label "Gaetano Starrabba"@en;
@@ -2934,7 +2935,7 @@ f1:Monarch a f1:Driver;
 	rdfs:label "Thomas Monarch"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1945-09-03'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gasly a f1:Driver;
 	rdfs:label "Pierre Gasly"@en;
@@ -2950,10 +2951,10 @@ f1:Lewis a f1:Driver;
 	owl:sameAs wd:Q172433.
 
 f1:Ricardo_Rodriguez a f1:Driver;
-	rdfs:label "Ricardo Rodríguez"@en;
+	rdfs:label "Ricardo Rodrï¿½guez"@en;
 	f1:Nationality f1:Mexican;
 	f1:dateOfBirth '1942-02-14'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Seidel a f1:Driver;
 	rdfs:label "Wolfgang Seidel"@en;
@@ -3001,7 +3002,7 @@ f1:Davis a f1:Driver;
 	rdfs:label "Colin Davis"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1933-07-29'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Chamberlain a f1:Driver;
 	rdfs:label "Jay Chamberlain"@en;
@@ -3061,7 +3062,7 @@ f1:Harris a f1:Driver;
 	rdfs:label "Mike Harris"@en;
 	f1:Nationality f1:South_African;
 	f1:dateOfBirth '1939-05-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Hocking a f1:Driver;
 	rdfs:label "Gary Hocking"@en;
@@ -3085,7 +3086,7 @@ f1:Trips a f1:Driver;
 	rdfs:label "Wolfgang von Trips"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1928-05-04'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Allison a f1:Driver;
 	rdfs:label "Cliff Allison"@en;
@@ -3187,7 +3188,7 @@ f1:Ryan a f1:Driver;
 	rdfs:label "Peter Ryan"@en;
 	f1:Nationality f1:Canadian;
 	f1:dateOfBirth '1940-06-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Ruby a f1:Driver;
 	rdfs:label "Lloyd Ruby"@en;
@@ -3211,13 +3212,13 @@ f1:Larreta a f1:Driver;
 	rdfs:label "Alberto Rodriguez Larreta"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1934-01-14'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gonzalez a f1:Driver;
-	rdfs:label "José Froilán González"@en;
+	rdfs:label "Josï¿½ Froilï¿½n Gonzï¿½lez"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1922-10-05'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Bonomi a f1:Driver;
 	rdfs:label "Roberto Bonomi"@en;
@@ -3307,7 +3308,7 @@ f1:Johnson a f1:Driver;
 	rdfs:label "Eddie Johnson"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1919-02-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Veith a f1:Driver;
 	rdfs:label "Bob Veith"@en;
@@ -3415,7 +3416,7 @@ f1:Foyt a f1:Driver;
 	rdfs:label "Anthony Foyt"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1935-01-16'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Russo a f1:Driver;
 	rdfs:label "Eddie Russo"@en;
@@ -3469,13 +3470,13 @@ f1:Mike_Taylor a f1:Driver;
 	rdfs:label "Mike Taylor"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1934-04-24'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Flockhart a f1:Driver;
 	rdfs:label "Ron Flockhart"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1923-06-16'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Piper a f1:Driver;
 	rdfs:label "David Piper"@en;
@@ -3517,7 +3518,7 @@ f1:Drake a f1:Driver;
 	rdfs:label "Bob Drake"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1919-12-14'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Bueb a f1:Driver;
 	rdfs:label "Ivor Bueb"@en;
@@ -3544,10 +3545,10 @@ f1:Lucienbonnet a f1:Driver;
 	owl:sameAs wd:Q595137.
 
 f1:Testut a f1:Driver;
-	rdfs:label "André Testut"@en;
+	rdfs:label "Andrï¿½ Testut"@en;
 	f1:Nationality f1:Monegasque;
 	f1:dateOfBirth '1926-04-13'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Behra a f1:Driver;
 	rdfs:label "Jean Behra"@en;
@@ -3601,7 +3602,7 @@ f1:Turner a f1:Driver;
 	rdfs:label "Jack Turner"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1920-02-12'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Weyant a f1:Driver;
 	rdfs:label "Chuck Weyant"@en;
@@ -3631,13 +3632,13 @@ f1:Orey a f1:Driver;
 	rdfs:label "Fritz d'Orey"@en;
 	f1:Nationality f1:Brazilian;
 	f1:dateOfBirth '1938-03-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Fontes a f1:Driver;
 	rdfs:label "Azdrubal Fontes"@en;
 	f1:Nationality f1:Uruguayan;
 	f1:dateOfBirth '1922-12-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Ashdown a f1:Driver;
 	rdfs:label "Peter Ashdown"@en;
@@ -3667,7 +3668,7 @@ f1:Tomaso a f1:Driver;
 	rdfs:label "Alessandro de Tomaso"@en;
 	f1:Nationality f1:Argentine-Italian;
 	f1:dateOfBirth '1928-07-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Constantine a f1:Driver;
 	rdfs:label "George Constantine"@en;
@@ -3811,13 +3812,13 @@ f1:Connor a f1:Driver;
 	rdfs:label "Pat O'Connor"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1928-10-09'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Jerry_Unser a f1:Driver;
 	rdfs:label "Jerry Unser"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1932-11-15'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Bisch a f1:Driver;
 	rdfs:label "Art Bisch"@en;
@@ -3835,7 +3836,7 @@ f1:Gibson a f1:Driver;
 	rdfs:label "Dick Gibson"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1918-04-16'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:La_Caze a f1:Driver;
 	rdfs:label "Robert La Caze"@en;
@@ -3844,16 +3845,16 @@ f1:La_Caze a f1:Driver;
 	owl:sameAs wd:Q172447.
 
 f1:Guelfi a f1:Driver;
-	rdfs:label "André Guelfi"@en;
+	rdfs:label "Andrï¿½ Guelfi"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1919-05-06'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Picard a f1:Driver;
-	rdfs:label "François Picard"@en;
+	rdfs:label "Franï¿½ois Picard"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1921-04-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Bridger a f1:Driver;
 	rdfs:label "Tom Bridger"@en;
@@ -3880,10 +3881,10 @@ f1:Castellotti a f1:Driver;
 	owl:sameAs wd:Q171933.
 
 f1:Simon a f1:Driver;
-	rdfs:label "André Simon"@en;
+	rdfs:label "Andrï¿½ Simon"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1920-01-05'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Leston a f1:Driver;
 	rdfs:label "Les Leston"@en;
@@ -3967,19 +3968,19 @@ f1:Uria a f1:Driver;
 	rdfs:label "Alberto Uria"@en;
 	f1:Nationality f1:Uruguayan;
 	f1:dateOfBirth '1924-07-11'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Ramos a f1:Driver;
 	rdfs:label "Hernando da Silva Ramos"@en;
 	f1:Nationality f1:Brazilian;
 	f1:dateOfBirth '1925-12-07'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Bayol a f1:Driver;
-	rdfs:label "Élie Bayol"@en;
+	rdfs:label "ï¿½lie Bayol"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1914-02-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Manzon a f1:Driver;
 	rdfs:label "Robert Manzon"@en;
@@ -4015,13 +4016,13 @@ f1:Andrews a f1:Driver;
 	rdfs:label "Keith Andrews"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1920-06-15'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Frere a f1:Driver;
-	rdfs:label "Paul Frère"@en;
+	rdfs:label "Paul Frï¿½re"@en;
 	f1:Nationality f1:Belgian;
 	f1:dateOfBirth '1917-01-30'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Villoresi a f1:Driver;
 	rdfs:label "Luigi Villoresi"@en;
@@ -4060,10 +4061,10 @@ f1:Volonterio a f1:Driver;
 	owl:sameAs wd:Q115693.
 
 f1:Milhoux a f1:Driver;
-	rdfs:label "André Milhoux"@en;
+	rdfs:label "Andrï¿½ Milhoux"@en;
 	f1:Nationality f1:Belgian;
 	f1:dateOfBirth '1928-12-09'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Graffenried a f1:Driver;
 	rdfs:label "Toulo de Graffenried"@en;
@@ -4081,7 +4082,7 @@ f1:Farina a f1:Driver;
 	rdfs:label "Nino Farina"@en;
 	f1:Nationality f1:Italian;
 	f1:dateOfBirth '1906-10-30'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Mieres a f1:Driver;
 	rdfs:label "Roberto Mieres"@en;
@@ -4102,10 +4103,10 @@ f1:Bucci a f1:Driver;
 	owl:sameAs wd:Q173281.
 
 f1:Iglesias a f1:Driver;
-	rdfs:label "Jesús Iglesias"@en;
+	rdfs:label "Jesï¿½s Iglesias"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1922-02-22'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Ascari a f1:Driver;
 	rdfs:label "Alberto Ascari"@en;
@@ -4195,7 +4196,7 @@ f1:Peter_Walker a f1:Driver;
 	rdfs:label "Peter Walker"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1912-10-07'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Sparken a f1:Driver;
 	rdfs:label "Mike Sparken"@en;
@@ -4231,7 +4232,7 @@ f1:Fitch a f1:Driver;
 	rdfs:label "John Fitch"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1917-08-04'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Lucas a f1:Driver;
 	rdfs:label "Jean Lucas"@en;
@@ -4243,13 +4244,13 @@ f1:Bira a f1:Driver;
 	rdfs:label "Prince Bira"@en;
 	f1:Nationality f1:Thai;
 	f1:dateOfBirth '1914-07-15'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Marimon a f1:Driver;
-	rdfs:label "Onofre Marimón"@en;
+	rdfs:label "Onofre Marimï¿½n"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1923-12-19'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Loyer a f1:Driver;
 	rdfs:label "Roger Loyer"@en;
@@ -4396,10 +4397,10 @@ f1:Riu a f1:Driver;
 	owl:sameAs wd:Q738155.
 
 f1:Galvez a f1:Driver;
-	rdfs:label "Oscar Gálvez"@en;
+	rdfs:label "Oscar Gï¿½lvez"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1913-08-17'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:John_Barber a f1:Driver;
 	rdfs:label "John Barber"@en;
@@ -4417,7 +4418,7 @@ f1:Cruz a f1:Driver;
 	rdfs:label "Adolfo Cruz"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1923-06-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Nalon a f1:Driver;
 	rdfs:label "Duke Nalon"@en;
@@ -4441,7 +4442,7 @@ f1:Bob_Scott a f1:Driver;
 	rdfs:label "Bob Scott"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1928-10-04'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Legat a f1:Driver;
 	rdfs:label "Arthur Legat"@en;
@@ -4453,7 +4454,7 @@ f1:Cabantous a f1:Driver;
 	rdfs:label "Yves Cabantous"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1904-10-08'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Crook a f1:Driver;
 	rdfs:label "Tony Crook"@en;
@@ -4516,10 +4517,10 @@ f1:Adolff a f1:Driver;
 	owl:sameAs wd:Q61033.
 
 f1:Bechem a f1:Driver;
-	rdfs:label "Günther Bechem"@en;
+	rdfs:label "Gï¿½nther Bechem"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1921-12-21'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Bauer a f1:Driver;
 	rdfs:label "Erwin Bauer"@en;
@@ -4531,7 +4532,7 @@ f1:Hans_Stuck a f1:Driver;
 	rdfs:label "Hans von Stuck"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1900-12-27'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Loof a f1:Driver;
 	rdfs:label "Ernst Loof"@en;
@@ -4585,7 +4586,7 @@ f1:George_Connor a f1:Driver;
 	rdfs:label "George Connor"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1906-08-16'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Rigsby a f1:Driver;
 	rdfs:label "Jim Rigsby"@en;
@@ -4633,7 +4634,7 @@ f1:Ball a f1:Driver;
 	rdfs:label "Bobby Ball"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1925-08-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Tornaco a f1:Driver;
 	rdfs:label "Charles de Tornaco"@en;
@@ -4651,7 +4652,7 @@ f1:Obrien a f1:Driver;
 	rdfs:label "Robert O'Brien"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1908-04-11'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gaze a f1:Driver;
 	rdfs:label "Tony Gaze"@en;
@@ -4672,10 +4673,10 @@ f1:Comotti a f1:Driver;
 	owl:sameAs wd:Q173528.
 
 f1:Etancelin a f1:Driver;
-	rdfs:label "Philippe Étancelin"@en;
+	rdfs:label "Philippe ï¿½tancelin"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1896-12-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Poore a f1:Driver;
 	rdfs:label "Dennis Poore"@en;
@@ -4711,7 +4712,7 @@ f1:Murray a f1:Driver;
 	rdfs:label "David Murray"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1909-12-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Cantoni a f1:Driver;
 	rdfs:label "Eitel Cantoni"@en;
@@ -4771,7 +4772,7 @@ f1:Peters a f1:Driver;
 	rdfs:label "Josef Peters"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1914-09-16'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Lof a f1:Driver;
 	rdfs:label "Dries van der Lof"@en;
@@ -4855,7 +4856,7 @@ f1:Walt_Brown a f1:Driver;
 	rdfs:label "Walt Brown"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1911-12-30'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Hellings a f1:Driver;
 	rdfs:label "Mack Hellings"@en;
@@ -4870,10 +4871,10 @@ f1:Levegh a f1:Driver;
 	owl:sameAs wd:Q171742.
 
 f1:Chaboud a f1:Driver;
-	rdfs:label "Eugène Chaboud"@en;
+	rdfs:label "Eugï¿½ne Chaboud"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1907-04-12'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Gordini a f1:Driver;
 	rdfs:label "Aldo Gordini"@en;
@@ -4885,7 +4886,7 @@ f1:Kelly a f1:Driver;
 	rdfs:label "Joe Kelly"@en;
 	f1:Nationality f1:Irish;
 	f1:dateOfBirth '1913-03-13'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Parker a f1:Driver;
 	rdfs:label "Philip Fotheringham-Parker"@en;
@@ -4897,13 +4898,13 @@ f1:Shawe_Taylor a f1:Driver;
 	rdfs:label "Brian Shawe Taylor"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1915-01-28'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:John_James a f1:Driver;
 	rdfs:label "John James"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1914-05-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Branca a f1:Driver;
 	rdfs:label "Toni Branca"@en;
@@ -4915,7 +4916,7 @@ f1:Richardson a f1:Driver;
 	rdfs:label "Ken Richardson"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1911-08-21'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Jover a f1:Driver;
 	rdfs:label "Juan Jover"@en;
@@ -4939,7 +4940,7 @@ f1:Crossley a f1:Driver;
 	rdfs:label "Geoff Crossley"@en;
 	f1:Nationality f1:British;
 	f1:dateOfBirth '1921-05-11'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Fagioli a f1:Driver;
 	rdfs:label "Luigi Fagioli"@en;
@@ -4960,10 +4961,10 @@ f1:Fry a f1:Driver;
 	owl:sameAs wd:Q172329.
 
 f1:Martin a f1:Driver;
-	rdfs:label "Eugène Martin"@en;
+	rdfs:label "Eugï¿½ne Martin"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1915-03-24'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Leslie_Johnson a f1:Driver;
 	rdfs:label "Leslie Johnson"@en;
@@ -4978,10 +4979,10 @@ f1:Biondetti a f1:Driver;
 	owl:sameAs wd:Q172489.
 
 f1:Pian a f1:Driver;
-	rdfs:label "Alfredo Pián"@en;
+	rdfs:label "Alfredo Piï¿½n"@en;
 	f1:Nationality f1:Argentine;
 	f1:dateOfBirth '1912-10-21'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Sommer a f1:Driver;
 	rdfs:label "Raymond Sommer"@en;
@@ -5023,7 +5024,7 @@ f1:Jackson a f1:Driver;
 	rdfs:label "Jimmy Jackson"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1910-07-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Pagani a f1:Driver;
 	rdfs:label "Nello Pagani"@en;
@@ -5062,16 +5063,16 @@ f1:Kladis a f1:Driver;
 	owl:sameAs wd:Q172566.
 
 f1:Oscar_Gonzalez a f1:Driver;
-	rdfs:label "Óscar González"@en;
+	rdfs:label "ï¿½scar Gonzï¿½lez"@en;
 	f1:Nationality f1:Uruguayan;
 	f1:dateOfBirth '1923-11-10'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL..
+	.
 
 f1:Hulkenberg a f1:Driver;
-	rdfs:label "Nico Hülkenberg"@en;
+	rdfs:label "Nico Hï¿½lkenberg"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1987-08-19'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'HUL'.
 
 f1:Petrov a f1:Driver;
@@ -5117,17 +5118,17 @@ f1:Resta a f1:Driver;
 	f1:Code 'DIR'.
 
 f1:Perez a f1:Driver;
-	rdfs:label "Sergio Pérez"@en;
+	rdfs:label "Sergio Pï¿½rez"@en;
 	f1:Nationality f1:Mexican;
 	f1:dateOfBirth '1990-01-26'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'PER'.
 
 f1:Ambrosio a f1:Driver;
-	rdfs:label "Jérôme d'Ambrosio"@en;
+	rdfs:label "Jï¿½rï¿½me d'Ambrosio"@en;
 	f1:Nationality f1:Belgian;
 	f1:dateOfBirth '1985-12-27'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'DAM'.
 
 f1:Ricciardo a f1:Driver;
@@ -5138,10 +5139,10 @@ f1:Ricciardo a f1:Driver;
 	f1:Code 'RIC'.
 
 f1:Vergne a f1:Driver;
-	rdfs:label "Jean-Éric Vergne"@en;
+	rdfs:label "Jean-ï¿½ric Vergne"@en;
 	f1:Nationality f1:French;
 	f1:dateOfBirth '1990-04-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'VER'.
 
 f1:Pic a f1:Driver;
@@ -5159,10 +5160,10 @@ f1:Chilton a f1:Driver;
 	f1:Code 'CHI'.
 
 f1:Gutierrez a f1:Driver;
-	rdfs:label "Esteban Gutiérrez"@en;
+	rdfs:label "Esteban Gutiï¿½rrez"@en;
 	f1:Nationality f1:Mexican;
 	f1:dateOfBirth '1991-08-05'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'GUT'.
 
 f1:Bottas a f1:Driver;
@@ -5201,10 +5202,10 @@ f1:Kvyat a f1:Driver;
 	f1:Code 'KVY'.
 
 f1:Lotterer a f1:Driver;
-	rdfs:label "André Lotterer"@en;
+	rdfs:label "Andrï¿½ Lotterer"@en;
 	f1:Nationality f1:German;
 	f1:dateOfBirth '1981-11-19'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'LOT'.
 
 f1:Ericsson a f1:Driver;
@@ -5253,7 +5254,7 @@ f1:Rossi a f1:Driver;
 	rdfs:label "Alexander Rossi"@en;
 	f1:Nationality f1:American;
 	f1:dateOfBirth '1991-09-25'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'RSS'.
 
 f1:Jolyon_Palmer a f1:Driver;
@@ -5323,7 +5324,7 @@ f1:Sirotkin a f1:Driver;
 	rdfs:label "Sergey Sirotkin"@en;
 	f1:Nationality f1:Russian;
 	f1:dateOfBirth '1995-08-27'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'SIR'.
 
 f1:Norris a f1:Driver;
@@ -5344,7 +5345,7 @@ f1:Albon a f1:Driver;
 	rdfs:label "Alexander Albon"@en;
 	f1:Nationality f1:Thai;
 	f1:dateOfBirth '1996-03-23'^^xsd:date;
-	owl:sameAs wd:No se encontró un código de Wikidata para esta URL.;
+	
 	f1:Code 'ALB'.
 
 f1:Latifi a f1:Driver;
@@ -5771,7 +5772,7 @@ f1:Shanghai_Circuit rdf:type f1:Circuit;
 	geo:long "121.22"^^xsd:float.
 
 f1:Interlagos_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Autódromo José Carlos Pace'@en;
+	rdfs:label 'Autï¿½dromo Josï¿½ Carlos Pace'@en;
 	f1:hostCity f1:Sao_Paulo;
 	f1:hostCountry f1:Brazil;
 	geo:lat "-23.7036"^^xsd:float;
@@ -5785,7 +5786,7 @@ f1:Indianapolis_Circuit rdf:type f1:Circuit;
 	geo:long "-86.2347"^^xsd:float.
 
 f1:Nurburgring_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Nürburgring'@en;
+	rdfs:label 'Nï¿½rburgring'@en;
 	f1:hostCity f1:Nurburg;
 	f1:hostCountry f1:Germany;
 	geo:lat "50.3356"^^xsd:float;
@@ -5820,7 +5821,7 @@ f1:Yas_Marina_Circuit rdf:type f1:Circuit;
 	geo:long "54.6031"^^xsd:float.
 
 f1:Galvez_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Autódromo Juan y Oscar Gálvez'@en;
+	rdfs:label 'Autï¿½dromo Juan y Oscar Gï¿½lvez'@en;
 	f1:hostCity f1:Buenos_Aires;
 	f1:hostCountry f1:Argentina;
 	geo:lat "-34.6943"^^xsd:float;
@@ -5834,7 +5835,7 @@ f1:Jerez_Circuit rdf:type f1:Circuit;
 	geo:long "-6.03417"^^xsd:float.
 
 f1:Estoril_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Autódromo do Estoril'@en;
+	rdfs:label 'Autï¿½dromo do Estoril'@en;
 	f1:hostCity f1:Estoril;
 	f1:hostCountry f1:Portugal;
 	geo:lat "38.7506"^^xsd:float;
@@ -5869,7 +5870,7 @@ f1:Donington_Circuit rdf:type f1:Circuit;
 	geo:long "-1.37528"^^xsd:float.
 
 f1:Rodriguez_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Autódromo Hermanos Rodríguez'@en;
+	rdfs:label 'Autï¿½dromo Hermanos Rodrï¿½guez'@en;
 	f1:hostCity f1:Mexico_City;
 	f1:hostCountry f1:Mexico;
 	geo:lat "19.4042"^^xsd:float;
@@ -5897,7 +5898,7 @@ f1:Yeongam_Circuit rdf:type f1:Circuit;
 	geo:long "126.417"^^xsd:float.
 
 f1:Jacarepagua_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Autódromo Internacional Nelson Piquet'@en;
+	rdfs:label 'Autï¿½dromo Internacional Nelson Piquet'@en;
 	f1:hostCity f1:Rio_De_Janeiro;
 	f1:hostCountry f1:Brazil;
 	geo:lat "-22.9756"^^xsd:float;
@@ -5988,7 +5989,7 @@ f1:Mosport_Circuit rdf:type f1:Circuit;
 	geo:long "-78.6756"^^xsd:float.
 
 f1:Montjuic_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Montjuïc'@en;
+	rdfs:label 'Montjuï¿½c'@en;
 	f1:hostCity f1:Barcelona;
 	f1:hostCountry f1:Spain;
 	geo:lat "41.3664"^^xsd:float;
@@ -6156,7 +6157,7 @@ f1:Baku_Circuit rdf:type f1:Circuit;
 	geo:long "49.8533"^^xsd:float.
 
 f1:Portimao_Circuit rdf:type f1:Circuit;
-	rdfs:label 'Autódromo Internacional do Algarve'@en;
+	rdfs:label 'Autï¿½dromo Internacional do Algarve'@en;
 	f1:hostCity f1:Portimao;
 	f1:hostCountry f1:Portugal;
 	geo:lat "37.227"^^xsd:float;
