@@ -1,4 +1,4 @@
-@base https://seigenta.github.io/WATOS.github.io/data_test.ttl.
+@base <https://seigenta.github.io/WATOS.github.io/data_test.ttl>.
 @prefix f1: <http://ex.org/f1#>.
 @prefix geo:  <http://www.opengis.net/ont/geosparql#>.
 @prefix wd: <http://www.wikidata.org/entity/>.
